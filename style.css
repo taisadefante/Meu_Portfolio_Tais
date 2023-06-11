@@ -109,7 +109,7 @@ section#home {
   border: none;
   width: 150px;
   padding: 10px;
-  background-color: #252525;
+  background-color: #000000;
   color: white;
   font-size: 18px;
   cursor: pointer;
@@ -124,7 +124,7 @@ section#home {
   vertical-align: middle;
   -webkit-transform: perspective(2px) translateZ(0);
   transform: perspective(2px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px #000000;
   position: relative;
   background: rgb(87, 85, 85);
   color: white;
@@ -148,7 +148,7 @@ section#home {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgb(15, 15, 15);
+  background: #000000;
   border-radius: 25px;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -528,4 +528,3 @@ footer {
   color:white;
   background-color: #000000;
 }
-
