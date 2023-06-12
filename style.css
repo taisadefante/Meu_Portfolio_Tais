@@ -140,6 +140,7 @@ section#home {
   cursor: pointer;
 }
 
+
 .menu:before {
   content: "";
   position: absolute;
@@ -176,6 +177,8 @@ section#home {
 .home-info button:hover{
   opacity: 1;
 }
+
+
 .minilogo{
   width: 150px;
   margin-left:150px;
@@ -195,6 +198,28 @@ section#home {
   margin-right:60%;
 }
 
+.home_link button{
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(2px) translateZ(0);
+  transform: perspective(2px) translateZ(0);
+  box-shadow: 0 0 1px #000000;
+  position: relative;
+  background:  #000000;
+  color: white;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  border-radius: 55px;
+  font-size: 15px;
+  font-weight: 1000;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  
+}
 
 @keyframes float {
   0%, 100% {
