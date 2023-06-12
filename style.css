@@ -135,7 +135,7 @@ section#home {
   border-radius: 55px;
   font-size: 15px;
   font-weight: 1000;
-  text-align: justify;
+  text-align: center;
   padding: 10px;
   cursor: pointer;
 }
@@ -212,7 +212,7 @@ section#home {
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  border-radius: 55px;
+  border-radius: 56px;
   font-size: 15px;
   font-weight: 1000;
   text-align: center;
