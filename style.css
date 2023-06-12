@@ -249,18 +249,30 @@ section#sobre {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  text-align: justify;
-  
+  text-align: center;
+  font-size: 30px;
 }
+
+.sobre-info p{
+  color: #000000;
+  text-align: justify;
+  font-size: 20PX;
+}
+
 .sobre-img {
   width: 35%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .sobre-img img {
   width: 600px;
   height: 650px; 
+  border-radius: 15%;
+  margin-left: 0;
+  margin-top: 0%;
+  padding: 15%;
 }
 
 /* PROJECTS */
@@ -553,3 +565,4 @@ footer {
   color:white;
   background-color: #000000;
 }
+
