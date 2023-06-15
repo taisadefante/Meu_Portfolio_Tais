@@ -1,13 +1,34 @@
 /* responsivo */
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
  
   /*HEADER*/
- 
-     header {
-       justify-content: center;
-     }
-   
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 10px;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: #000000;
+    box-shadow: 0 2px 0 #626060;
+    max-width: 100vw;
+    width: 100%;
+}
+
+section#home {
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+section#home {
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
      .menu {
        text-decoration: none;
        display: inline-block;
@@ -23,31 +44,34 @@
        -webkit-transition-duration: 0.3s;
        transition-duration: 0.3s;
        border-radius: 55px;
-       font-size: 1px;
+       font-size: 20px;
        font-weight: 700px;
-       text-align: center;
-       padding: 5px;
+       padding: 4px;
        cursor: pointer;
+       
    }
    
-   h3 {
+    .nametopo h3 {
      display: block;
-     font-size: 0.7em;
+     font-size: 8px;
      margin-block-start: 0.8em;
      margin-block-end: 0.7em;
      margin-inline-start: 0px;
-     margin-inline-end: 0px;
+     margin-inline-end: 1px;
      font-weight: bold;
    }
    
    a {
-     cursor: pointer;
-     text-decoration: none;
-     color: white;
-     font-size: 7px;
-     padding: 0px;
-   }
-   
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 6px;
+    padding: 1px;
+    width: 10px;
+  }
+
+  /*HOME*/
+
    section#home {
      height: calc(100vh + 50px);
      display: flex;
@@ -83,26 +107,26 @@
    }
    
    .home_link button {
-     text-decoration: none;
-     display: inline-block;
-     vertical-align: middle;
-     -webkit-transform: perspective(2px) translateZ(0);
-     transform: perspective(2px) translateZ(0);
-     box-shadow: 0 0 1px #000000;
-     position: relative;
-     background: #000000;
-     color: white;
-     -webkit-transition-property: color;
-     transition-property: color;
-     -webkit-transition-duration: 0.3s;
-     transition-duration: 0.3s;
-     border-radius: 56px;
-     font-size: 10px;
-     font-weight: 800;
-     text-align: center;
-     padding: 5px;
-     cursor: pointer;
-     width: 60px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: auto;
+    -webkit-transform: perspective(2px) translateZ(0);
+    transform: perspective(2px) translateZ(0);
+    box-shadow: 0 0 1px #000000;
+    position: relative;
+    background: #000000;
+    color: white;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    border-radius: 56px;
+    font-size: 10px;
+    font-weight: 800;
+    text-align: center;
+    padding: 3px;
+    cursor: pointer;
+    width: 50px;
    }
  
    .home-img img{
@@ -155,7 +179,7 @@
      color: white;
      font-size: 30px;
      text-align: center;
-     font-size: ;
+     font-size: 12px;
  }
  
  .card-projetos {
@@ -194,44 +218,41 @@
  
  
    /*MEUS CURSOS*/
- 
- 
- 
-    header {
-     justify-content: center;
-   }
- 
-   .logo {
-     display: none;
-   }
- 
-   section#home {
-     flex-direction: column-reverse;
-     justify-content: center;
-   }
- 
   
-   .home-info, .home-img {
-     width: 100%;
-     padding: 10px;
-   }
-   .swiper-slide {
+   section#home {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+ 
+    .swiper-slide {
      flex-direction: column-reverse;
      gap: 30px;
    }
-   .project-img {
-     width: 100%;
-   }
-   .project-info {
+ 
+   .cursos-info {
      width: 80%;
+
+   }
+
+   .cursos-img img {
+    box-shadow: 0 10px 2px #0003;
+    object-fit: cover;
+    width: 100%;
+}
+
+   .cursos-info h2{
+    font-size: 0.9em;
+   }
+
+   .cursos-info p{
+    font-size: 0.7em;
    }
  
    /*CURRICULO*/
  
    .curriculo img{
      width: 100%;
-     height: 100%;
-   }
+}
  
    /*CONTATO*/
  
@@ -253,9 +274,8 @@
      color: white;
      background-color: #000000;
      font-size: 10px;
+     width: 100%;
      
  }
- 
- 
- 
+  
  }
