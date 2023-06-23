@@ -62,10 +62,10 @@ header {
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  border-radius: 55px;
   font-size: 15px;
   font-weight: 1000;
   text-align: justify;
+  border-radius: 55px;
   padding: 10px;
   cursor: pointer;
  }
@@ -222,6 +222,13 @@ section#sobre {
   cursor: pointer;
   opacity: 0.9;
   border-radius: 5px;
+  align-self: center;
+
+
+}
+
+.button_sobre a{
+  color: #686a6b ;
 
 }
 
