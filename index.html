@@ -1,42 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+  <meta name="description" content="Tais Defante Desenvolvedor Web" />
+  <meta name="developer" content="Tais Defante">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="resposivo.css">
   <title>Portfólio Tais</title>
+
+  <!-- Google Font-->
+  <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css">
+  <!-- Animate CSS-->
+  <link rel="stylesheet" href="assets/plugins/css/animate.css">
+  <!-- Owl Carousel CSS-->
+  <link rel="stylesheet" href="assets/plugins/css/owl.css">
+  <!-- Fancybox-->
+  <link rel="stylesheet" href="assets/plugins/css/jquery.fancybox.min.css">
+  
 </head>
+
 <body>
 
-  <!-- HEADER -->
-  <main>
-    <div class="geralheader"> 
+  <!--CARREGAMENTO-->
+  <div class="section-loader ">
+    <div class="loader">
+        <div></div>
+        <div></div> 
+    </div>
+</div>
+
+<main>
+
+  <!-- HEADER / NAVEGAÇÃO -->
+        <div class="geralheader"> 
     <header>
       <div class="nametopo">
         <h3>Taís Defante</h3>
       </div>
       <div class="menu">
         <nav class="nav-list">
-            <a href="index.html">Início</a>
-            <a href="sobre_mim.html">Sobre Mim</a>
-            <a href="projetos.html">Meus Projetos</a>
-            <a href="cursos.html">Cursos</a>
-            <a href="curriculo.html">Meu Curriculo</a>
-            <a href="contato.html">Contato</a>
-        </nav>
+            <a href="#home" class="a_menu">Início</a>
+            <a href="#sobre" class="a_menu">Sobre Mim</a>
+            <a href="#projetos" class="a_menu">Meus Projetos</a>
+            <a href="#cursos" class="a_menu">Cursos</a>
+            <a href="#contato" class="a_menu">Contato</a>
+                  </nav>
       </div>
     </header> 
     
     <!-- HOME -->
 <section id="home">
       <div class="home-info">
-        <h2>Ola! Eu sou a Taís</h2>
+        <h2>Ola! Eu sou <span>Taís Defante</span></h2>
         <p>Sou estudante de Tecnologia da Informação.</p>
       
   <div class="home_link">
@@ -54,11 +78,725 @@
       </div>
 
       <div class="home-img">
-        <img src="./img/foto1.jpg" alt="Foto de perfil">
+        <img src="./img/foto1.png" alt="Foto de perfil">
       </div>
       
     </section>
   </div> 
+
+<!-- SOBRE -->
+<div class="geralsobre" id="sobre">
+  <section id="sobre">
+
+   <div class="sobre-img">
+     <img src="./img/foto_tais.png" alt="Foto de perfil">
+   </div>
+   <div class="sobre-info">
+     <h1>Sobre Mim</h1>   
+     <p class="sobre-resume"> &nbsp; &nbsp; &nbsp;Olá, meu nome é  Taís Defante, tenho 43 anos sou Estudante de Gestão da 
+       Tecnologia da informação.</p>
+      <p> &nbsp; &nbsp;Minha carreira foi desenvolvida na área administrativa e financeira, em 2011 dei uma pausa
+       na minha carreira para cuidar dos meus filhos.</p>
+       <p> &nbsp; &nbsp; &nbsp;Em 2021 busquei minha recolocação e devido a dificuldade voltei a estudar 
+       onde fiz meu mba em Finanças, Auditoria e Controladoria e descidi estudar tecnologia. 
+       A cada dia e a cada aprendizado estou mais apaixonada pela área de tecnologia.</p>
+
+       <button class="button_sobre"><a href="./img/Tais Azevedo Defante_page-0001.jpg"></a> Meu Curriculo</button>
+   </div>
+   
+ </section>
+ </div> 
+  
+      <!-- PROJETOS-->
+      <section id="projetos" id="projetos">
+        <h1 class="titulo_projetos">Meus Projetos</h1>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="projetos-img">
+                             
+                <img src="./img/fotos_projetos/cartao_contato.jpeg" alt="" class="img-1" />
+                </a><!--aqui vc fecha tudo-->
+              </div>
+              <div class="projetos-info">
+                <h3>Cartão de Contato</h3>
+                <p>Tecnologias: HTML5,CSS3 e JavaScript.<br><br></p> 
+
+                <button class="button_projetos">
+                  <a href="https://taisadefante.github.io/Cartao_Contato/" target="_blank">Projeto</a>
+                </button>      
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="projetos-img">       
+                <img src="./img/fotos_projetos/web decodificador.jpeg" alt="" class="img-1" />
+                </a><!--aqui vc fecha tudo-->
+              </div>
+              <div class="projetos-info">
+                <h3>Decodificador de Texto</h3>
+                <p>Projeto Desafio Programa Oracle Next Education - One/Alura </p>
+                <p>Tecnologias: HTML5,CSS3 e JavaScript.<br><br></p>   
+
+                <button class="button_projetos">
+                  <a href="https://taisadefante.github.io/Decodificador_de_texto_one_js/" target="_blank">Projeto</a>
+                </button>      
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="projetos-img">       
+                <img src="./img/fotos_projetos/portfolio_jana.jpeg" alt="" class="img-1" />
+                </a><!--aqui vc fecha tudo-->
+              </div>
+              <div class="projetos-info">
+                <h3>Portfolio doces sonhos Personalizados</h3>
+                <p>Portfolio Realizado Para Empresa Doce Sonhos Personalizados</p>
+                <p>Tecnologias: HTML5,CSS3 e JavaScript.<br><br></p>   
+
+                <button class="button_projetos">
+                  <a href="https://taisadefante.github.io/Portfolio_Jana/" target="_blank">Projeto</a>
+                </button>      
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="projetos-img">       
+                <img src="./img/fotos_projetos/web_facebook.jpeg" alt="" class="img-1" />
+                </a><!--aqui vc fecha tudo-->
+              </div>
+              <div class="projetos-info">
+                <h3>Tela Login Facebook</h3>
+                <p>Projeto desenvolvido no curso Danki code.<br><br></p>
+                <p>Tecnologias: HTML5,CSS3 e JavaScript.<br><br></p> 
+                <button class="button_projetos">
+                  <a href=" https://taisadefante.github.io/Tela-login-Facebook/"
+                  target="_blank" target="_blank">Projeto</a>
+                </button>      
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="projetos-img">       
+                <img src="./img/fotos_projetos/site_em_construcao.jpg" alt="" class="img-1" />
+                </a><!--aqui vc fecha tudo-->
+              </div>
+              <div class="projetos-info">
+                <h3>Agência de Viagens</h3>
+                <p> Projeto desenvolvido para agência M&A Turismo</p>
+                <p>Tecnologias: HTML5,CSS3 e JavaScript.<br><br></p> 
+                <button class="button_projetos">
+                  <a href=" https://taisadefante.github.io/Tela-login-Facebook/"
+                  target="_blank" target="_blank">Projeto</a>
+                </button>      
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="projetos-img">       
+                <img src="./img/fotos_projetos/web barbearia_alura.jpeg" alt="" class="img-1" />
+                </a><!--aqui vc fecha tudo-->
+              </div>
+              <div class="projetos-info">
+                <h3>Barbearia Alura</h3>
+                <p>Projeto Desenvolvido no programa Oracle Next Education.</p>
+                <p>Tecnologias: HTML5,CSS3.<br><br></p> 
+                <button class="button_projetos">
+                  <a href="https://taisadefante.github.io/Barbearia_Alura/"
+                  target="_blank" target="_blank">Projeto</a>
+                </button>      
+              </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="projetos-img">       
+                  <img src="./img/fotos_projetos/my dolars.jpeg" alt="" class="img-1" />
+                  </a><!--aqui vc fecha tudo-->
+                </div>
+                <div class="projetos-info">
+                  <h3>Conversor do dolar para real</h3>
+                  <p>Projeto desenvolvido na aula do rodolfo mori (youtube)</p>
+                  <p>Tecnologias: HTML5,CSS3.</p> 
+                  <button class="button_projetos">
+                    <a href="https://taisadefante.github.io/Conversor-dolar-real/"
+                    target="_blank" target="_blank">Projeto</a>
+                  </button>      
+                </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="projetos-img">       
+                    <img src="./img/fotos_projetos/site lista mercado.jpeg" alt="" class="img-1" />
+                    </a><!--aqui vc fecha tudo-->
+                  </div>
+                  <div class="projetos-info">
+                    <h3>Lista de Mercado</h3>
+                    <p>Projeto desenvolvido no curso de JavaScript da Danki code.</p>
+                <p>Tecnologias: HTML5,CSS3 e JavaScript.<br><br><br></p> 
+                    <button class="button_projetos">
+                      <a href="https://taisadefante.github.io/Lista_mercado---Curso_dankicode/"
+                      target="_blank" target="_blank">Projeto</a>
+                    </button>      
+                  </div>
+                  </div>
+            </div>
+        
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    
+    <!-- CURSOS -->
+<section id="cursos">
+  <h1 class="titulo_cursos">Meus Cursos e Certificações</h1>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/HTML - CSS/1.jpg"><!--aqui vc coloca o site -->
+          <img src="./img/CERTIFICADOS/HTML - CSS/1.jpg" alt="Foto de um site"><!--aqui a imagem-->
+          </a><!--aqui vc fecha tudo-->
+        </div>
+        <div class="cursos-info">
+          <h2>JavaScript e Html: Desenvolva um jogo e pratique lógica de programação</h2>
+          <p>Curso do Programa Oracle Next Education - one-Alura.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/HTML - CSS/2.jpg">
+          <img src="./img/CERTIFICADOS/HTML - CSS/2.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Html e Css3: Avançando no Css.</h2>
+          <p>Curso do Programa Oracle Next Education - One-Alura.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/HTML - CSS/3.jpg">
+          <img src="./img/CERTIFICADOS/HTML - CSS/3.jpg" alt="">
+          </a>
+        </div>
+        <div class="cursos-info">
+          <h2>JavaScript e Html: Pratique Lógica com Desenhos, Animações e um Jogo</h2>
+          <p>Curso do Programa Oracle Next Education - one-Alura.</p>
+          </p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/HTML - CSS/4.jpg">
+          <img src="./img/CERTIFICADOS/HTML - CSS/4.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Jtml5 e Css3: Posicionamento, Listas e Navegação</h2>
+          <p>Curso do Programa Oracle Next Education - one-Alura.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/HTML - CSS/5.jpg">
+          <img src="./img/CERTIFICADOS/HTML - CSS/5.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Html5 e Css3: Crie uma Página da web</h2>
+          <p>Curso do Programa Oracle Next Education - one-Alura.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/HTML - CSS/6.jpg">
+          <img src="./img/CERTIFICADOS/HTML - CSS/6.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Curso JavaScript Completo</h2>
+          <p>Curso Realizado no curso Danki Code.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/HTML - CSS/7.jpg">
+          <img src="./img/CERTIFICADOS/HTML - CSS/7.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Html e Css3: Trabalhando com Formularios e Tabelas</h2>
+          <p>Curso do Programa Oracle Next Education - one-Alura.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/REACT JS/1.jpg"><!--aqui vc coloca o site -->
+          <img src="./img/CERTIFICADOS/REACT JS/1.jpg" alt=""><!--aqui a imagem-->
+          </a><!--aqui vc fecha tudo-->
+        </div>
+        <div class="cursos-info">
+          <h2>React</h2>
+          <p>Curso Realizado no curso Danki Code.</p>
+        </div>
+      </div>
+  
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/BANCO DE DADOS/1.jpg"><!--aqui vc coloca o site -->
+          <img src="./img/CERTIFICADOS/BANCO DE DADOS/1.jpg" alt=""><!--aqui a imagem-->
+          </a><!--aqui vc fecha tudo-->
+        </div>
+        <div class="cursos-info">
+          <h2>Curso Banco de Dados</h2>
+          <p>Curso realizado pelo curso Danki code.</p>
+        </div>
+      </div>
+   
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/JAVA/1.jpg"><!--aqui vc coloca o site -->
+          <img src="./img/CERTIFICADOS/JAVA/1.jpg" alt=""><!--aqui a imagem-->
+          </a><!--aqui vc fecha tudo-->
+        </div>
+        <div class="cursos-info">
+          <h2>Java oo: Entendendo a Orientação a Objeto</h2>
+          <p>Curso do Programa Oracle Next Education - one-Alura.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/JAVA/2.jpg">
+          <img src="./img/CERTIFICADOS/JAVA/2.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Java JRE e JDK: Compile e Execute o seu Programa</h2>
+          <p>Curso do Programa Oracle Next Education - one-Alura.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./">
+          <img src="./img/CERTIFICADOS/em breve.jfif" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Em Breve</h2>
+          <p>Cursando.</p>
+        </div>
+      </div>
+
+        <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/PROJETOS/1.jpg"><!--aqui vc coloca o site -->
+          <img src="./img/CERTIFICADOS/PROJETOS/1.jpg" alt="Foto de um site"><!--aqui a imagem-->
+          </a><!--aqui vc fecha tudo-->
+        </div>
+        <div class="cursos-info">
+          <h2>A Empresa Ágil: Introduzindo o Business Agility Nas Organizações</h2>
+          <p>Curso do Programa Oracle Next Education - one-Alura.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/PROJETOS/2.jpg">
+          <img src="./img/CERTIFICADOS/PROJETOS/2.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Agilidade: Promovendo a Transformação Ágil</h2>
+          <p>Curso do Programa Oracle Next Education - One-Alura.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/PROJETOS/3.jpg">
+          <img src="./img/CERTIFICADOS/PROJETOS/3.jpg" alt="">
+          </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Análise de Viabilidade de Projetos</h2>
+          <p>Curso realizado pela UNOPAR/Cursos Livres.</p>
+          </p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/PROJETOS/4.jpg">
+          <img src="./img/CERTIFICADOS/PROJETOS/4.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Cultura Organizacional e Gestão de Mudança</h2>
+          <p>Curso realizado pela UNOPAR/Cursos Livres.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/PROJETOS/5.jpg">
+          <img src="./img/CERTIFICADOS/PROJETOS/5.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Foco: Trazendo mais Resultado para o Dia a Dia.</h2>
+          <p>Curso do Programa Oracle Next Education - one-Alura.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/PROJETOS/6.jpg">
+          <img src="./img/CERTIFICADOS/PROJETOS/6.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Fundamentos da Gestão de Projetos</h2>
+          <p>Curso Realizado pelo Curso FM2S.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/PROJETOS/7.jpg">
+          <img src="./img/CERTIFICADOS/PROJETOS/7.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Curso Gerenciamento de Projetos</h2>
+          <p>Curso realizado pelo curso Danki code.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/PROJETOS/8.jpg">
+          <img src="./img/CERTIFICADOS/PROJETOS/8.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Gestão Ágil: Liderando a Mudança em um Ambiente de Agilidade.</h2>
+          <p>Curso do Programa Oracle Next Education - one-Alura.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/PROJETOS/9.jpg">
+          <img src="./img/CERTIFICADOS/PROJETOS/9.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Curso de SCRUM</h2>
+          <p>Curso realizado pelo curso Danki code.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/PROJETOS/10.jpg">
+          <img src="./img/CERTIFICADOS/PROJETOS/10.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Curso de Liderança</h2>
+          <p>Curso realizado pelo curso Danki code.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/PROJETOS/11.jpg">
+          <img src="./img/CERTIFICADOS/PROJETOS/11.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Organização de Equipes Ágeis: Os Papeis Existentes em uma Equipe</h2>
+          <p>Curso do Programa Oracle Next Education - one-Alura.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/QUALIDADE/2.jpg">
+          <img src="./img/CERTIFICADOS/QUALIDADE/2.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Gerenciamento da Qualidade em Projetos</h2>
+          <p>Curso realizado pela UNOPAR/Cursos Livres.</p>
+        </div>
+      </div>
+   
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/QUALIDADE/1.jpg"><!--aqui vc coloca o site -->
+          <img src="./img/CERTIFICADOS/QUALIDADE/1.jpg" alt=""><!--aqui a imagem-->
+          </a><!--aqui vc fecha tudo-->
+        </div>
+        <div class="cursos-info">
+          <h2>Gestão de Qualidade</h2>
+          <p>Curso Realizado pelo Curso FM2S.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/QUALIDADE/2.jpg">
+          <img src="./img/CERTIFICADOS/QUALIDADE/2.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Gerenciamento da Qualidade em Projetos</h2>
+          <p>Curso realizado pela UNOPAR/Cursos Livres.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./">
+          <img src="./img/CERTIFICADOS/em breve.jfif" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Em Breve</h2>
+          <p>Cursando.</p>
+        </div>
+      </div>
+
+    
+
+<!--UI-->
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/UI/1.jpg"><!--aqui vc coloca o site -->
+          <img src="./img/CERTIFICADOS/UI/1.jpg" alt="Foto de um site"><!--aqui a imagem-->
+          </a><!--aqui vc fecha tudo-->
+        </div>
+        <div class="cursos-info">
+          <h2>Curso de Figma</h2>
+          <p>Curso realizado pelo Curso Danki Code.</p>
+        </div>
+      </div>
+      
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/UX/1.jpg"><!--aqui vc coloca o site -->
+          <img src="./img/CERTIFICADOS/UX/1.jpg" alt="Foto de um site"><!--aqui a imagem-->
+          </a><!--aqui vc fecha tudo-->
+        </div>
+        <div class="cursos-info">
+          <h2>Curso UX Design</h2>
+          <p>Curso realizado pelo Curso Danki Code.</p>
+        </div>
+      </div>
+    
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/WORDPRESS/"><!--aqui vc coloca o site -->
+          <img src="./img/CERTIFICADOS/WORDPRESS/1.jpg" alt="Foto de um site"><!--aqui a imagem-->
+          </a><!--aqui vc fecha tudo-->
+        </div>
+        <div class="cursos-info">
+          <h2>Curso crie uma Loja Virtual com Wordpress e Woocommerce</h2>
+          <p>Curso realizado pelo Curso Danki Code.</p>
+        </div>
+      </div>
+     
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/TYPESCRIPT/1.jpg"><!--aqui vc coloca o site -->
+          <img src="./img/CERTIFICADOS/TYPESCRIPT/1.jpg" alt="Foto de um site"><!--aqui a imagem-->
+          </a><!--aqui vc fecha tudo-->
+        </div>
+        <div class="cursos-info">
+          <h2>Curso Typescript Express</h2>
+          <p>Curso realizado pelo Curso Danki Code.</p>
+        </div>
+      </div>
+     
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/LINGUAGEM - LOGICA DE PROGRAMAÇÃO/1.jpg"><!--aqui vc coloca o site -->
+          <img src="./img/CERTIFICADOS/LINGUAGEM - LOGICA DE PROGRAMAÇÃO/1.jpg" alt=""><!--aqui a imagem-->
+          </a><!--aqui vc fecha tudo-->
+        </div>
+        <div class="cursos-info">
+          <h2></h2>
+          <p>Curso realizado no curso Danki code.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/LINGUAGEM - LOGICA DE PROGRAMAÇÃO/2.jpg">
+          <img src="./img/CERTIFICADOS/LINGUAGEM - LOGICA DE PROGRAMAÇÃO/2.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2> Curso de Lógica de Programação</h2>
+          <p>Curso realizado pelo curso Danki code.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/LINGUAGEM - LOGICA DE PROGRAMAÇÃO/3.jpg">
+          <img src="./img/CERTIFICADOS/LINGUAGEM - LOGICA DE PROGRAMAÇÃO/3.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h1> Iniciante em Programação T5</h1>
+          <p>Curso do Programa Oracle Next Education - one-Alura.</p>
+        </div>
+      </div>
+
+      
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/LINGUAGEM - LOGICA DE PROGRAMAÇÃO/4.jpg">
+          <img src="./img/CERTIFICADOS/LINGUAGEM - LOGICA DE PROGRAMAÇÃO/4.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Curso de PYTHON Web</h2>
+          <p>Curso realizado pelo curso Danki code.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/LINGUAGEM - LOGICA DE PROGRAMAÇÃO/5.jpg">
+          <img src="./img/CERTIFICADOS/LINGUAGEM - LOGICA DE PROGRAMAÇÃO/5.jpg" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Curso de PYTHON Completo</h2>
+          <p>Curso realizado pelo curso Danki code.</p>
+        </div>
+      </div>
+   
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/IDIOMAS/INGLES PARA PROGRAMADORES - DANKI CODE  - LINK_page-0001.jpg"><!--aqui vc coloca o site -->
+          <img src="./img/CERTIFICADOS/IDIOMAS/INGLES PARA PROGRAMADORES - DANKI CODE  - LINK_page-0001.jpg" alt="Foto de um site"><!--aqui a imagem-->
+          </a><!--aqui vc fecha tudo-->
+        </div>
+        <div class="cursos-info">
+          <h2>Curso de Inglês para Programadores</h2>
+          <p>Curso realizado pelo Curso Danki Code.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/MONTAGEM E MANUTENCAO MICRO/1.jpg"><!--aqui vc coloca o site -->
+          <img src="./img/CERTIFICADOS/MONTAGEM E MANUTENCAO MICRO/1.jpg" alt="Foto de um site"><!--aqui a imagem-->
+          </a><!--aqui vc fecha tudo-->
+        </div>
+        <div class="cursos-info">
+          <h2>Curso de Montagem e Manutenção de Micro</h2>
+          <p>Curso realizado pelo Curso Danki Code.</p>
+        </div>
+      </div>
+     
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/PROGRAMAS - PARTICIPAÇÃO/1.JPG"><!--aqui vc coloca o site -->
+          <img src="./img/CERTIFICADOS/PROGRAMAS - PARTICIPAÇÃO/1.JPG" alt="Foto de um site"><!--aqui a imagem-->
+          </a><!--aqui vc fecha tudo-->
+        </div>
+        <div class="cursos-info">
+          <h2>Curso de Montagem e Manutenção de Micro</h2>
+          <p>Curso do Programa Oracle Next Education - one-Alura.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/PROGRAMAS - PARTICIPAÇÃO/2.jfif"><!--aqui vc coloca o site -->
+          <img src="./img/CERTIFICADOS/PROGRAMAS - PARTICIPAÇÃO/2.jfif" alt="Foto de um site"><!--aqui a imagem-->
+          </a><!--aqui vc fecha tudo-->
+        </div>
+        <div class="cursos-info">
+          <h2>BAck end</h2>
+          <p>Curso do Programa Oracle Next Education - one-Alura.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./">
+          <img src="./img/CERTIFICADOS/em breve.jfif" alt="">
+        </a>
+        </div>
+        <div class="cursos-info">
+          <h2>Em Breve</h2>
+          <p></p>
+        </div>
+      </div>
+     
+      <div class="swiper-slide">
+        <div class="cursos-img">
+          <a href="./img/CERTIFICADOS/ADM - FINANÇAS/1.jpg"><!--aqui vc coloca o site -->
+          <img src="./img/CERTIFICADOS/ADM - FINANÇAS/1.jpg" alt="Foto de um site"><!--aqui a imagem-->
+          </a><!--aqui vc fecha tudo-->
+        </div>
+        <div class="cursos-info">
+          <h2>Mba Finanças, Auditoria e controladoria</h2>
+          <p>Mba realizado na faculdade UNOPAR.</p>
+        </div>
+      </div>
+      </div>
+  
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+</div>
+</section>
+
+<section class="section_contato">
+  <div class="contato_cont">
+      <div class="contato_text">
+          <h1 id="link_contact"  data-anime="left">Entre em contato</h1>
+          <p  data-anime="left">(21)98835-9825</p>
+          <p  data-anime="left">taisadefante@hotmail.com</p>
+          <div class="contato_links" data-anime="bottom">
+              <a href="https://github.com/taisadefante" target="_blank"><img src="./img/github.svg" alt="Github"></a>
+              <a href="https://www.linkedin.com/in/ta%C3%ADs-defante-54533165/" target="_blank"><img src="./img/linkedin.svg" alt="Linkedin"></a>
+          </div>
+      </div>
+
+      <!--input for-->
+      <div class="contato_form" id="contato">
+          <form action="https://formsubmit.co/taisadefante@hotmail.com" method="POST">
+              <input type="email" name="email" id="email" placeholder="Seu Email:" required/>
+              <input type="text" name="assunto" id="assunto" placeholder="Assunto:" required/>
+              <textarea name="text" id="text" cols="30" rows="10" placeholder="Como posso te ajudar?" ></textarea>
+              <input type="hidden" name="_captcha" value="false"/>
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html"/>
+              <button type="submit">Envie uma mensagem</button>
+          </form>
+      </div>
+  </div>
+</section>
 
 
 <!--footer-->
@@ -73,7 +811,7 @@
 </div>
   
 </footer>
-
+</main>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="script.js"></script>
 </body>
