@@ -328,11 +328,11 @@ section#projetos {
   padding: 0 30px;
 }
 .swiper-button-next, 
-.swiper-button-prev {
-  color: #686a6b;
+.swiper-button-prev{
+  color: #f9f9fa;
 }
 .swiper-pagination-bullet-active {
-  background-color:#686a6b;
+  background-color:#f9f9fa;
 }
 
 
@@ -401,10 +401,10 @@ section#cursos {
 }
 .swiper-button-next, 
 .swiper-button-prev {
-  color: #000000;
+  color: #f9f9fa;
 }
 .swiper-pagination-bullet-active {
-  background-color: #686a6b ;
+  background-color: #f9f9fa;
 }
 
 
