@@ -1,3 +1,6 @@
+
+/****************Função Apresentação Projetos/Cursos****************/
+
 var swiper = new Swiper(".mySwiper", {
     cssMode: true,
     loop: true,
@@ -12,6 +15,7 @@ var swiper = new Swiper(".mySwiper", {
     keyboard: true,
   });
 
-
-/* ou     $(document).ready(funcion(){     
+  
+$(function(){
+});
 
