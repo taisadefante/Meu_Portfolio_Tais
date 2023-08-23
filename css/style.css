@@ -418,6 +418,7 @@ section#cursos {
   flex: 2;
   color: #717171;
   overflow-y: hidden;
+  text-align: center;
 }
 
 .contato_text h4 {
@@ -436,10 +437,10 @@ section#cursos {
 
 .contato_links {
   display: flex;
-  align-items: center;
   gap: 2.5rem;
-  margin-top: 30px;
-  margin-left: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 120px;
 }
 
 .contato_links a {
