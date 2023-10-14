@@ -1,390 +1,696 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Tais Defante Desenvolvedor Web" />
-  <meta name="developer" content="Tais Defante">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-
-  <!--****************CSS****************-->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/resposivo.css">
-  <title>Portfólio Tais</title>
-
-  <!-- ****************Google Font****************-->
-  <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css">
-  <!-- Animate CSS-->
-  <link rel="stylesheet" href="assets/plugins/css/animate.css">
-  <!-- Owl Carousel CSS-->
-  <link rel="stylesheet" href="assets/plugins/css/owl.css">
-  <!-- Fancybox-->
-  <link rel="stylesheet" href="assets/plugins/css/jquery.fancybox.min.css">
-
-</head>
-
-<body>
-
-
-  <main>
-
-    <!-- ****************HEADER / NAVEGAÇÃO**************** -->
-    <div class="geralheader">
-      <header>
-        <div class="nametopo">
-          <h3>Taís Defante</h3>
+<html lang="pt0br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifólio - Taís Defante</title>
+    <link rel="icon" type="image/x-icon" href="/assets/imagem.jpeg">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-switcher.css" />
+   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="aside">
+        <div class="logo">
+          <a href="#">TAÍS</a>
         </div>
-        <div class="menu">
-          <nav class="nav-list">
-            <a href="#home" class="a_menu">Início</a>
-            <a href="#sobre" class="a_menu">Sobre</a>
-            <a href="#projetos" class="a_menu">Projetos</a>
-            <a href="#cursos" class="a_menu">Cursos</a>
-            <a href="#contato" class="a_menu">Contato</a>
-          </nav>
-        </div>
-      </header>
-      <hr/>
-
-
-      <!-- ****************HOME**************** -->
-      <section id="home">
-        <div class="home-info">
-          <h2>Ola! Eu sou <span>Taís Defante</span></h2>
-          <div>Eu sou <span>Estudante de Tecnologia.</span></div>
-
-          <div class="home_link">
-            <button>
-              <a href="https://wa.me/21988359825">Watsapp</a>
-            </button>
-            <button>
-              <a href="https://www.linkedin.com/in/ta%C3%ADs-defante-54533165/">Linkedin</a>
-            </button>
-            <button>
-              <a href="https://github.com/taisadefante">GitHub</a>
-            </button>
+        <div class="nav-toggler"><i class="fa-solid fa-bars"></i></div>
+        <ul class="nav">
+          <li>
+            <a href="#home" class="active"><i class="fa fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="#about"><i class="fa fa-user"></i>Sobre Mim</a>
+          </li>
+          <li>
+            <a href="#service"><i class="fa fa-list"></i>Formação</a>
+          </li>
+          <li>
+            <a href="#portfolio"><i class="fa fa-briefcase"></i>Projetos</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fa fa-comments"></i>Contato</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-content">
+        <section class="home active section" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="home-info padd-15">
+                <h3 class="hello">
+                  <strong>Olá, meu nome é</strong>
+                  <span class="name">Taís Defante!</span>
+                </h3>
+                <h3 class="my-profession">
+                  Sou <span class="typing">Desenvolvedora Web</span>
+                </h3>
+                <p>
+                  Sou uma pessoa comunicativa, com soft skills bem desenvolvidos
+                  e sei trabalhar muito bem em equipe. Gosto muito de desafios e resolver problemas por
+                  isso me identifico com a área de TI. Além disso, sou uma
+                  pessoa comprometida, organizada e responsável. Acredito ter
+                  qualidades imprescindíveis para o mercado de trabalho!
+                </p>
+                <div class="botão">
+                <a href="./img/Tais Defante.pdf" download="curriculo" class="btn"
+                  >Download CV</a>
+                </div>
+              </div>
+              <div class="home-img padd-15">
+                <img src="./img/foto.png" alt="" />
+              </div>
+            </div>
           </div>
+        </section>
+        <!-----------------------SOBRE----------------------------->
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Sobre mim</h2>
+              </div>
+            </div>
+            <div class="row">
+              <d class="about-content padd-15">
+                <div class="row">
+                  <div class="about-text padd-15">
+                    
+                    <p>
+                      Sou Administradora e minha carreira foi desenvolvida na área administrativa / Financeira. <br><br>
+                      Estou me formando como Desenvolvedora de Software Full Stack, acumulando experiência com front-end (HTML, CSS, React), Back-end (node.js / Javascript) e Banco de Dados (Mysql), Git e Github. <br><br>
+                      Também estou me formando em Gerenciamento de Projetos e acumulando experiência com infraestruturar de TI, Ms-Project, Trello, Power - Bi, LGPD – ISSO 27001, Qualidade de Projetos, Metodologia ágil (Scrum, Kanban) , Analista de risco, padrões e o guia PMBOK®. <br><br>
+                      Sou uma profissional com senso de dono, visão Analítico-investigativa, entendimento das necessidades das páreas de negócios, tenho capacidade de absorver conteúdo e resolver problemas que são apresentados propondo soluções viáveis e realização de planejamento dos projetos. <br><br>
+                       Amo desafios e adquirir novos conhecimentos. 
+                      Tenho como objetivo conquistar conhecimentos técnicos, aprimorar os que já tenho e buscar dentro de minha cultura organizacional uma oportunidade. 
+                      Buscando sempre a melhoria dos processos e o desenvolvimento de habilidades, contribuindo 
+                      para que meus conhecimentos possa trazer benefícios e crescimento para o Negocio. 
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="personal-info padd-15">
+                    <div class="row">
+                      <div class="info-item padd-15">
+                        <p>Data de Nascimento: <span>12 Out 1979</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Idade: <span>44 anos</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>
+                          GitHub: <span>https://github.com/taisadefante</span>
+                        </p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Email: <span>taisadefante@hotmail.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>
+                          Formação:
+                          <span>Administração de Empresas</span>
+                        </p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>
+                          Em Formação:
+                          <span>Gestão da Tecnologia da Informação</span>
+                        </p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Phone: <span>+55 21 98835-9825</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Cidade: <span>Rio de Janeiro</span></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="buttons padd-15">
 
+                        
+                        <a href="#contact" data-section-index="1"                      class="btn hire-me">Entre em Contato</a>
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skills padd-15">
+                    <div class="row">
+                      <div class="skill-item padd-15">
+                        <h5>CSS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 85%">
+                            <div class="skill-percent">85%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>HTML</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 90%">
+                            <div class="skill-percent">90%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>JS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 80%">
+                            <div class="skill-percent">80%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Node.Js</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 60%">
+                            <div class="skill-percent">60%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>React</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 45%">
+                            <div class="skill-percent">45%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Gestão de Projetos</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 90%">
+                            <div class="skill-percent">90%</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-----------------------------Formação------------------------------------->
+        <section class="service section" id="service">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Formação e Cursos</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-graduation-cap"></i>
+                  </div>
+                  <h4>Administração de empresas</h4>
+                  <p>
+                    Faculdade São Jose <br>
+                    2004-2008
+                  </p><br>
+                </div>
+              </div>
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-graduation-cap"></i>
+                  </div>
+                  <h4>Pós-Graduação em Finanças, Auditoria e Controladoria</h4>
+                  <p>
+                    Faculdade UNOPAR <br> 2022 
+                  </p>
+                </div>
+              </div>
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-graduation-cap"></i>
+                  </div>
+                  <h4>Gestão da Tecnologia da Informação</h4>
+                  <p>
+                    Universidade Candido Mendes <br> 2022 - 2025
+                  </p>
+                </div>
+              </div>
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-graduation-cap"></i>
+                  </div>
+                  <h4>Pós-Graduação em Gestão de Projetos</h4>
+                  <p>
+                   Faculdade Focus <br> 2023
+                  </p>
+                </div>
+              </div>
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-graduation-cap"></i>
+                  </div>
+                  <h4>Técnico em Contabilidade</h4>
+                  <p>
+                   Ensino Medio - SENAC <br> 1998
+                  </p><br>
+                </div>
+              </div>
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-code"></i>
+                  </div>
+                  <h4>HTML</h4>
+                  <p>
+                    
+                  </p><br><br><br>
+                </div>
+              </div>
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-code"></i>
+                  </div>
+                  <h4>React</h4>
+                  <p>
+                  
+                  </p>
+                </div>
+              </div>
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-code"></i>
+                  </div>
+                  <h4>CSS</h4>
+                  <p>
+                    
+                  </p>
+                </div>
+              </div>
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-code"></i>
+                  </div>
+                  <h4>JavaScript</h4>
+                  <p>
+                    
+                  </p>
+            </div>
+          </div>
+          <div class="service-item padd-15">
+            <div class="service-item-inner">
+              <div class="icon">
+                <i class="fa fa-code"></i>
+              </div>
+              <h4>Banco de Dados</h4>
+              <p>
+               
+              </p>
         </div>
-
-        <div class="home-img">
-          <img src="./img/foto1.png" alt="Foto de perfil">
-        </div>
-
-      </section>
+      </div>
+      <div class="service-item padd-15">
+        <div class="service-item-inner">
+          <div class="icon">
+            <i class="fa fa-chart-pie"></i>
+          </div>
+          <h4>Power-Bi</h4>
+          <p>
+           
+          </p>
     </div>
-    <hr/>
+  </div>           
+  <div class="service-item padd-15">
+    <div class="service-item-inner">
+      <div class="icon">
+        <i class="fa fa-window-restore"></i>
+      </div>
+      <h4>Gestão de Projetos</h4>
+      <p>
+       
+      </p>
+</div>
+</div>        
+<div class="service-item padd-15">
+  <div class="service-item-inner">
+    <div class="icon">
+      <i class="fa fa-sitemap" "></i>
+    </div>
+    <h4>infraestruturar de Ti</h4>
+    <p>
+     
+    </p>
+</div>
+</div>        
+        </section>
+        <!---------------------------------------------------->
 
+            <!-- ****************PROJETOS HTML CSS Javascript****************-->
 
-    <!-- ****************SOBRE**************** -->
-    <div class="geralsobre" id="sobre">
-      <section id="sobre">
+        <section class="portfolio section" id="portfolio">
 
-        <div class="sobre-img">
-          <img src="./img/foto_tais.png" alt="Foto de perfil">
-        </div>
-        <div class="sobre-info">
-          <h1>Sobre Mim</h1>
-          <p class="sobre-resume"> &nbsp; &nbsp; &nbsp;Olá, meu nome é Taís Defante, tenho 43 anos sou Estudante de  Gestão da  Tecnologia da informação.</p>
-          
-          <p> &nbsp; &nbsp; &nbsp;Sou Administradora e minha carreira foi desenvolvida na área administrativa / Financeira.</p>
-
-           <p> &nbsp; &nbsp; &nbsp;Estou me formando como Desenvolvedora de Software Full Stack, acumulando experiência com front-end (HTML, CSS, React), Back-end (node.js / Javascript) e Banco de Dados (Mysql), Git e Github.</p>
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Projetos</h2>
+              </div>
+            </div>
+            <div>
+              <h1 class="titulo_projetos">Projetos Front-End ( HTML, CSS e JavaScript )</h1>
+            </div>
             
-            <p>&nbsp; &nbsp; &nbsp;Também estou me formando em Gerenciamento de Projetos e acumulando experiência com infraestruturar de TI, Ms-Project, Trello, Power - Bi, LGPD – ISSO 27001, Qualidade de Projetos, Metodologia ágil (Scrum, Kanban) , Analista de risco. </p>
-                                 
-            <p>&nbsp; &nbsp; &nbsp;Sou uma profissional com senso de dono, visão Analítico-investigativa, entendimento das necessidades das páreas de negócios, tenho capacidade de absorver conteúdo e resolver problemas que são apresentados propondo soluções viáveis e realização de planejamento dos projetos. . Amo desafios e adquirir novos conhecimentos.        
+            <div class="row">
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="./img/fotos_projetos/web decodificador.jpeg" alt="" class="img-1" />
+                    <h2><strong> Decodificador de Texto</strong></h2><br>
+                    <p>Projeto Desafio Programa Oracle Next Education - One/Alura<br><br> </p>
+                    <p>Tecnologias: HTML5,CSS3 e JavaScript.<br><br><br><br></p>
+      
+                <div class="botão">
+                <button class="btn">
+                  <a class="btn-projeto" href="https://taisadefante.github.io/Decodificador_de_texto_one_js/" target="_blank">Deploy</a>
+                </button>
+                </div>
+              </div>
+            </div>
+            
+          </div>                                
+          <div class="portfolio-item padd-15">
+            <div class="portfolio-item-inner shadow-dark">
+              <div class="portfolio-img">
+                <img src="./img/fotos_projetos/cartao_contato.jpeg" alt="" class="img-1" />
+                <h2><strong> Cartão de Contato</strong></h2>
+            <p>
+              Desenvolvi um cartão de visitas pessoal com redirecionamento ao meu Whatsapp, meu portflio, GitHub e ao meu LinkedIn.</br></br>
+              Tecnologias: HTML5, CSS3 e JS.</br><br>
             </p>
+            <div class="botão">
+            <button class="btn">
+              <a class="btn-projeto" href="https://taisadefante.github.io/Cartao_Contato_Tais/" target="_blank">Deploy</a>
+            </button>
+            </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="./img/fotos_projetos/web_facebook.jpeg" alt="" class="img-1" />
+                    <h2><strong> Tela Login Facebook</strong></h2><br>
+                    <p>Projeto desenvolvido no curso Danki code.<br><br></p>
+                    <p>Tecnologias: HTML5,CSS3 e JavaScript.<br><br><br></p>
+                <div class="botão">
+                <button class="btn">
+                  <a class="btn-projeto" href="https://taisadefante.github.io/Tela-login-Facebook/" target="_blank">Deploy</a>
+                </button>
+                </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="./img/fotos_projetos/pagina_churrascometro.png" alt="" class="img-1" />
+                    <h2><strong> Calculadora Churrasco</strong></h2>
+                    <p> Projeto desenvolvido no curso Programador Br com algumas modificações</p>
+                    <p>Tecnologias: HTML5,CSS3 e JavaScript.<br><br></p>
+                <div class="botão">
+                <button class="btn">
+                  <a class="btn-projeto" href="https://taisadefante.github.io/Calculadora_Churrasco/" target="_blank">Deploy</a>
+                </button>
+                </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="./img/fotos_projetos/web barbearia_alura.png" alt="" class="img-1" />
+                    <h2><strong> Barbearia Alura</strong></h2>
+                    <p>Projeto Desenvolvido no programa Oracle Next Education.</p>
+                    <p>Tecnologias: HTML5,CSS3.<br><br><br><br></p>
+                <div class="botão">
+                <button class="btn">
+                  <a class="btn-projeto" href="https://taisadefante.github.io/Barbearia_Alura/" target="_blank">Deploy</a>
+                </button>
+                </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="./img/fotos_projetos/my dolars.jpeg" alt="" class="img-1" />
+                    <h2><strong> Conversor do dolar para real</strong></h2>
+                    <p>Projeto desenvolvido na aula do rodolfo mori (youtube)</p>
+                    <p>Tecnologias: HTML5,CSS3.</p>
+                <div class="botão">
+                <button class="btn">
+                  <a class="btn-projeto" href="https://taisadefante.github.io/Conversor-dolar-real/" target="_blank">Deploy</a>
+                </button>
+                </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="./img/fotos_projetos/site lista mercado.jpeg" alt="" class="img-1" />
+                    <h2><strong> Lista de Mercado</strong></h2>
+                    <p>Projeto desenvolvido no curso de JavaScript da Danki code.</p>
+                    <p>Tecnologias: HTML5,CSS3 e JavaScript.
+                <div class="botão">
+                <button class="btn">
+                  <a class="btn-projeto" href="https://taisadefante.github.io/Lista_mercado---Curso_dankicode/" target="_blank">Deploy</a>
+                </button>
+                </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="./img/fotos_projetos/site_em_construcao.jpg" alt="" class="img-1" />
+                    <h2><strong> Em Breve</strong></h2>
+                <p>Tecnologias: HTML5, CSS3 e JS.</p><br><br>
+                <div class="botão">
+                <button class="btn">
+                  <a class="btn-projeto" href="" target="_blank">Deploy</a>
+                </button>
+                </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="./img/fotos_projetos/site_em_construcao.jpg" alt="" class="img-1" />
+                    <h2><strong> Em Breve</strong></h2>
+                <p>Tecnologias: HTML5, CSS3 e JS.</p><br><br>
+                <div class="botão">
+                <button class="btn">
+                  <a class="btn-projeto" href="" target="_blank">Deploy</a>
+                </button>
+                </div>
+                  </div>
+                </div>
+              </div>
+              <hr/>
 
-          <button class="button_sobre">
-            <a href="./img/Tais Azevedo Defante.pdf">Meu Curriculo</a>
-          </button>
+              <!--PROJETOS POWER BI -->
+              
+              <div class="container">
+                <div class="row">
+                 
+                </div>
+                <div>
+                  <h1 class="titulo_projetos">Dashboard Power-Bi</h1>
+                </div>
+                
+                <div class="row">
+                  <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark">
+                      <div class="portfolio-img">
+                        <img src="./img/fotos_projetos/projeto_power_bi1.jpg" alt="" class="img-1" />
+                        <h2><strong> Dashboard Power Bi</strong></h2><br>
+                        <p>Dashboard Analitico Realizado no curso Data Science Academy.<br><br></p>
+                  </div>
+                </div>
+                
+              </div>        
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="./img/fotos_projetos/projeto_power_bi2.png" alt="" class="img-1" />
+                    <h2><strong> Dashboard Power Bi</strong></h2><br>
+                    <p>Dashboard Analitico Realizado no curso Data Science Academy.<br><br></p>
+                
+                  </div>
+                </div>
+              </div>                        
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="./img/fotos_projetos/site_em_construcao.jpg" alt="" class="img-1" />
+                    <h2><strong> Em Breve</strong></h2><br><br><br><br>
+                <p> </p>
+               
+            </div>
+          </div>
         </div>
+      </div>
 
-      </section>
+       <!--Projetos Back-End -->
+              
+       <div class="container">
+        <div class="row">
+         
+        </div>
+        <div>
+          <h1 class="titulo_projetos">Projetos Back-End</h1>
+        </div>
+        
+        <div class="row">
+          <div class="portfolio-item padd-15">
+            <div class="portfolio-item-inner shadow-dark">
+              <div class="portfolio-img">
+                <img src="./img/fotos_projetos/site_em_construcao.jpg" alt="" class="img-1" />
+                <h2><strong> Em Breve</strong></h2><br><br><br><br>
+            <p> </p>
+          </div>
+        </div>
+        
+      </div>        
+      <div class="portfolio-item padd-15">
+        <div class="portfolio-item-inner shadow-dark">
+          <div class="portfolio-img">
+            <img src="./img/fotos_projetos/site_em_construcao.jpg" alt="" class="img-1" />
+            <h2><strong> Em Breve</strong></h2><br><br><br><br>
+        <p> </p>
+        
+          </div>
+        </div>
+      </div>                        
+      <div class="portfolio-item padd-15">
+        <div class="portfolio-item-inner shadow-dark">
+          <div class="portfolio-img">
+            <img src="./img/fotos_projetos/site_em_construcao.jpg" alt="" class="img-1" />
+            <h2><strong> Em Breve</strong></h2><br><br><br><br>
+        <p> </p>
+       
     </div>
-    <hr/>
+  </div>
+</div>
+</div>
 
-    <!-- ****************PROJETOS HTML CSS Javascript****************-->
-    <section id="projetos" id="projetos">
-      <h1 class="titulo_projetos">Meus Projetos Front-End ( HTML, CSS e JavaScript )</h1>
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="projetos-img">
 
-              <img src="./img/fotos_projetos/cartao_contato.jpeg" alt="" class="img-1" />
-              </a><!--aqui vc fecha tudo-->
-            </div>
-            <div class="projetos-info">
-              <h3>Cartão de Contato</h3>
-              <p>Tecnologias: HTML5,CSS3 e JavaScript.<br><br></p>
-
-              <button class="button_projetos">
-                <a href="https://taisadefante.github.io/Cartao_Contato_Tais/" target="_blank">Projeto</a>
-              </button>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="projetos-img">
-              <img src="./img/fotos_projetos/web decodificador.jpeg" alt="" class="img-1" />
-              </a><!--aqui vc fecha tudo-->
-            </div>
-            <div class="projetos-info">
-              <h3>Decodificador de Texto</h3>
-              <p>Projeto Desafio Programa Oracle Next Education - One/Alura </p>
-              <p>Tecnologias: HTML5,CSS3 e JavaScript.<br><br></p>
-
-              <button class="button_projetos">
-                <a href="https://taisadefante.github.io/Decodificador_de_texto_one_js/" target="_blank">Projeto</a>
-              </button>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="projetos-img">
-              <img src="./img/fotos_projetos/portfolio_jana.png"   />
-              </a><!--aqui vc fecha tudo-->
-            </div>
-            <div class="projetos-info">
-              <h3>Portfolio doces sonhos Personalizados</h3>
-              <p>Portfolio Realizado Para Empresa Doce Sonhos Personalizados</p>
-              <p>Tecnologias: HTML5,CSS3 e JavaScript.<br><br></p>
-
-              <button class="button_projetos">
-                <a href="https://taisadefante.github.io/Portfolio_Jana/" target="_blank">Projeto</a>
-              </button>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="projetos-img">
-              <img src="./img/fotos_projetos/web_facebook.jpeg" alt="" class="img-1" />
-              </a><!--aqui vc fecha tudo-->
-            </div>
-            <div class="projetos-info">
-              <h3>Tela Login Facebook</h3>
-              <p>Projeto desenvolvido no curso Danki code.<br><br></p>
-              <p>Tecnologias: HTML5,CSS3 e JavaScript.<br><br></p>
-              <button class="button_projetos">
-                <a href=" https://taisadefante.github.io/Tela-login-Facebook/" target="_blank"
-                  target="_blank">Projeto</a>
-              </button>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="projetos-img">
-              <img src="./img/fotos_projetos/pagina_churrascometro.png" alt="" class="img-1" />
-              </a><!--aqui vc fecha tudo-->
-            </div>
-            <div class="projetos-info">
-              <h3>Calculadora Churrasco</h3>
-              <p> Projeto desenvolvido no curso Programador Br com algumas modificações</p>
-              <p>Tecnologias: HTML5,CSS3 e JavaScript.<br><br></p>
-              <button class="button_projetos">
-                <a href=" https://taisadefante.github.io/Calculadora_Churrasco/" target="_blank"
-                  target="_blank">Projeto</a>
-              </button>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="projetos-img">
-              <img src="./img/fotos_projetos/web barbearia_alura.png" alt="" class="img-1" />
-              </a><!--aqui vc fecha tudo-->
-            </div>
-            <div class="projetos-info">
-              <h3>Barbearia Alura</h3>
-              <p>Projeto Desenvolvido no programa Oracle Next Education.</p>
-              <p>Tecnologias: HTML5,CSS3.<br><br></p>
-              <button class="button_projetos">
-                <a href="https://taisadefante.github.io/Barbearia_Alura/" target="_blank" target="_blank">Projeto</a>
-              </button>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="projetos-img">
-              <img src="./img/fotos_projetos/my dolars.jpeg" alt="" class="img-1" />
-              </a><!--aqui vc fecha tudo-->
-            </div>
-            <div class="projetos-info">
-              <h3>Conversor do dolar para real</h3>
-              <p>Projeto desenvolvido na aula do rodolfo mori (youtube)</p>
-              <p>Tecnologias: HTML5,CSS3.</p>
-              <button class="button_projetos">
-                <a href="https://taisadefante.github.io/Conversor-dolar-real/" target="_blank"
-                  target="_blank">Projeto</a>
-              </button>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="projetos-img">
-              <img src="./img/fotos_projetos/site lista mercado.jpeg" alt="" class="img-1" />
-              </a><!--aqui vc fecha tudo-->
-            </div>
-            <div class="projetos-info">
-              <h3>Lista de Mercado</h3>
-              <p>Projeto desenvolvido no curso de JavaScript da Danki code.</p>
-              <p>Tecnologias: HTML5,CSS3 e JavaScript.<br><br><br></p>
-              <button class="button_projetos">
-                <a href="https://taisadefante.github.io/Lista_mercado---Curso_dankicode/" target="_blank"
-                  target="_blank">Projeto</a>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-      </div>
     </section>
-    <hr/>
+    <!----------------------------------------------------------->
 
-    <!-- ****************Power bi**************** -->
-    <section id="projetos" id="projetos">
-      <h1 class="titulo_projetos">Meus Projetos Power Bi</h1>
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="projetos-img">
-
-              <img src="./img/fotos_projetos/projeto_power_bi1.jpg" alt="" class="img-1" />
-              </a><!--aqui vc fecha tudo-->
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Entre em Contato</h2>
+              </div>
             </div>
-            <div class="projetos-info">
-              <h3>Dashboard Power Bi</h3>
-              <p>Dashboard Analitico Realizado no curso Data Science Academy.<br><br></p>
-
+            
+            <div class="row">
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                
+                <p>+55 21 98835-9825</p>
+              </div>
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class=" fa fa-brands fa-linkedin"></i></div>
+                <a href="https://www.linkedin.com/in/tais-defante/" target="_blank">Linkedin</a>
+              </div>
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                
+                <p>taisadefante@hotmail.com</p>
+              </div>
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-brands fa-github"></i></div>
+                
+                <a href="https://github.com/taisadefante" target="_blank">GitHub</a>
+              </div>
             </div>
+            <br />
+
+           
+            <form class="row" action="https://formsubmit.co/taisadefante@hotmail.com" method="POST">
+              <div class="contact-form padd-15">
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input type="text" class="form-control"
+                        placeholder="Nome" name="name" required/>
+                    </div>
+                    <input type="hidden" name="_captcha" value="false">
+                  </div>
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input type="email" class="form-control"                       placeholder="Email" name="email" required/>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input type="text" class="form-control"                        placeholder="Assunto" name="subject" required/>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea
+                        class="form-control" placeholder="Mensagem"
+                        name="message" required>
+                      </textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="botão">
+                    <button type="submit" class="btn" id="btn">Enviar Mensagem</button>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
-
-          <div class="swiper-slide">
-            <div class="projetos-img">
-              <img src="./img/fotos_projetos/projeto_power_bi2.png" alt="" class="img-1" />
-              </a><!--aqui vc fecha tudo-->
-            </div>
-            <div class="projetos-info">
-              <h3>Dashboard Power Bi</h3>
-              <p>Dashboard Analitico Realizado no curso Data Science Academy.</p>
-              
-            </div>
-          </div>
-        </div>
-
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
+        </section>
       </div>
-    </section>
-    <hr/>
-
-     <!-- ****************Back-End**************** -->
-     <section id="projetos" id="projetos">
-      <h1 class="titulo_projetos">Meus Projetos Back-End</h1>
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="projetos-img">
-
-              <img src="" alt="" class="img-1" />
-              </a><!--aqui vc fecha tudo-->
-            </div>
-            <div class="projetos-info">
-              <h3></h3>
-              <p><br><br></p>
-
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="projetos-img">
-              <img src="" alt="" class="img-1" />
-              </a><!--aqui vc fecha tudo-->
-            </div>
-            <div class="projetos-info">
-              <h3></h3>
-              <p></p>
-              
-            </div>
-          </div>
-        </div>
-
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
+    </div>
+    <div class="style-switcher">
+      <div class="style-switcher-toggler s-icon">
+        <i class="fa fa-solid fa-gear"></i>
       </div>
-    </section>
-    <hr/>
-
-     <!-- ****************Projetos Banco de Dados**************** -->
-     <section id="projetos" id="projetos">
-      <h1 class="titulo_projetos">Meus Projetos Banco de Dados</h1>
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="projetos-img">
-
-              <img src="" alt="" class="img-1" />
-              </a><!--aqui vc fecha tudo-->
-            </div>
-            <div class="projetos-info">
-              <h3></h3>
-              <p><br><br></p>
-
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="projetos-img">
-              <img src="" alt="" class="img-1" />
-              </a><!--aqui vc fecha tudo-->
-            </div>
-            <div class="projetos-info">
-              <h3></h3>
-              <p></p>
-              
-            </div>
-          </div>
-        </div>
-
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
+      <div class="day-night s-icon">
+        <i class="fas"></i>
       </div>
-    </section>
-    <hr/>
-
-
-    <!--****************footer****************-->
-    /
-    <footer>
-      <span>Copyright © 2023 Tais Defante . Todos os direitos reservados.</span>
-      <br />
-      <span>Contato: taisadefante@hotmail.com</span>
-
-      <div class="contato_footer" data-anime="bottom">
-        <a href="https://github.com/taisadefante" target="_blank"><img src="./img/github.svg" alt="Github"></a>
-        <a href="https://www.linkedin.com/in/ta%C3%ADs-defante-54533165/" target="_blank"><img src="./img/linkedin.svg"
-            alt="Linkedin"></a>
-      </div>
-
-    </footer>
-
-  </main>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="./Js/jquery.js"></script>
-  <script src="./Js/functions.js"></script>
-</body>
-
+          
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="style-switcher.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
