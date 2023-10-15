@@ -688,7 +688,11 @@ h3.my-profession {
   color: var(--text-black-700);
 }
 
+h2{
+  text-align: center;
+}
 
+/********************************************CONTATO***************************************/
 
 .contact-title {
     color: var(--skin-color);
@@ -769,6 +773,8 @@ h3.my-profession {
     height: 50px;
     padding: 0 50px;
 }
+
+/***********************************RESPONSIVO*********************************************/
 
 @media (max-width: 1199px) {
 
