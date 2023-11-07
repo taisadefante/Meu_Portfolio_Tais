@@ -445,6 +445,7 @@ h3.my-profession {
 }
 .about .about-content .personal-info .buttons .btn {
   margin-top: 10px;
+ margin-left: 70%;
 }
 
 .about .about-content .skills {
@@ -691,6 +692,8 @@ h3.my-profession {
 h2{
   text-align: center;
 }
+
+
 
 /********************************************CONTATO***************************************/
 
