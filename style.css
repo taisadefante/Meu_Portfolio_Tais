@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Montserrat:ital,wght@0,300;1,100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Montserrat:ital,wght@0,300;1,100&display=swap");
 
 :root {
   --skin-color: #ec1839;
 }
-
-
 
 :root {
   --bg-black-900: #f2f2fc;
@@ -13,7 +11,7 @@
   --bg-black-50: #e8dfec;
   --text-black-900: #302e4d;
   --text-black-700: #504e70;
-    --skin-color: #1854b4;
+  --skin-color: #1854b4;
 }
 body.dark {
   --bg-black-900: #151515;
@@ -26,7 +24,7 @@ body.dark {
 body {
   line-height: 1.5;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 * {
@@ -35,7 +33,7 @@ body {
   outline: none;
   text-decoration: none;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 ::before,
@@ -155,16 +153,15 @@ body {
   background: var(--skin-color);
   transition: all 0.3s ease;
   text-align: center;
-    
 }
 
-.btn-projeto{
-color: white;
+.btn-projeto {
+  color: white;
 }
 
-.botão{
-text-align: center;
-margin: auto;
+.botão {
+  text-align: center;
+  margin: auto;
 }
 
 .btn:hover {
@@ -207,7 +204,7 @@ margin: auto;
 }
 
 .aside .logo a span {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 40px;
 }
 
@@ -262,7 +259,7 @@ margin: auto;
 }
 
 .aside .nav-toggler span::before {
-  content: '';
+  content: "";
   height: 2px;
   width: 18px;
   background-color: var(--skin-color);
@@ -307,9 +304,9 @@ margin: auto;
   padding: 5px 15px;
 }
 
- .aside .nav li a.active {
+.aside .nav li a.active {
   color: var(--skin-color);
-} 
+}
 
 .aside .nav li a i {
   margin-right: 15px;
@@ -318,7 +315,7 @@ margin: auto;
 .home {
   min-height: 100vh;
   display: flex;
-  color: var(--text-black-900); 
+  color: var(--text-black-900);
 }
 
 .home .home-info {
@@ -332,7 +329,7 @@ h3.hello {
 }
 
 h3.hello span {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: 700;
   color: var(--skin-color);
@@ -445,7 +442,7 @@ h3.my-profession {
 }
 .about .about-content .personal-info .buttons .btn {
   margin-top: 10px;
- margin-left: 70%;
+  margin-left: 70%;
 }
 
 .about .about-content .skills {
@@ -634,7 +631,7 @@ h3.my-profession {
 
 /***************************PROJETOS***********************************/
 
-.titulo_projetos{   
+.titulo_projetos {
   text-align: center;
   font-size: 30px;
   color: #1854b4;
@@ -652,7 +649,7 @@ h3.my-profession {
 .portfolio .portfolio-heading h2 {
   color: var(--text-black-900);
   font-weight: 300;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .portfolio .portfolio-item {
   flex: 0 0 33.33%;
@@ -670,11 +667,9 @@ h3.my-profession {
   box-shadow: 10px 10px 10px rgba(4, 4, 6, 0.15);
 }
 
-
 .portfolio .portfolio-item-inner .portfolio-img img {
   width: 100%;
   display: block;
-  
 }
 .portfolio .portfolio-item-inner .portfolio-img h2 {
   display: flex;
@@ -689,159 +684,152 @@ h3.my-profession {
   color: var(--text-black-700);
 }
 
-h2{
+h2 {
   text-align: center;
 }
-
-
 
 /********************************************CONTATO***************************************/
 
 .contact-title {
-    color: var(--skin-color);
-    text-align: center;
-    font-size: 25px;
-    margin-bottom: 20px;
+  color: var(--skin-color);
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 
 .contact-sub-title {
-    color: var(--text-black-900);
-    text-align: center;
-    font-size: 15px;
-    margin-bottom: 60px;
+  color: var(--text-black-900);
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 60px;
 }
 .contact .contct-info-item {
-    flex: 0 0 25%;
-    max-width: 25%;
-    text-align: center;
-    margin-bottom: 60px;
+  flex: 0 0 25%;
+  max-width: 25%;
+  text-align: center;
+  margin-bottom: 60px;
 }
 .contact .contact-info-item .icon {
-    display: inline-block;
+  display: inline-block;
 }
 .contact .contact-info-item .icon .fa {
-    font-size: 25px;
-    color: var(--skin-color);
+  font-size: 25px;
+  color: var(--skin-color);
 }
 
 .contact .contact-info-item h4 {
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--text-black-900);
-    text-transform: capitalize;
-    margin: 15px 0 5px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-black-900);
+  text-transform: capitalize;
+  margin: 15px 0 5px;
 }
 .contact .contact-info-item p {
-    font-size: 16px;
-    line-height: 25px;
-    color: var(--text-black-700);
-    font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--text-black-700);
+  font-weight: 400;
 }
 
 .contact .contact-form {
-    flex: 0 0 100%;
-    max-width: 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
 }
 .contact .contact-form .col-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
 }
 .contact .contact-form .col-12 {
-    flex: 0 0 100%;
-    max-width: 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
 }
 .contact .contact-form .form-item {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .contact .contact-form .form-item .form-control {
-    width: 100%;
-    height: 50px;
-    border-radius: 10px;
-    background: var(--bg-black-100);
-    border: 1px solid var(--bg-black-50);
-    padding: 10px 25px;
-    font-size: 16px;
-    color: var(--text-black-700);
-    transition: all 0.3s ease;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  background: var(--bg-black-100);
+  border: 1px solid var(--bg-black-50);
+  padding: 10px 25px;
+  font-size: 16px;
+  color: var(--text-black-700);
+  transition: all 0.3s ease;
 }
 .contact .contact-form .form-item .form-control:focus {
-    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 
 .contact .contact-form .form-item textarea.form-control {
-    height: 140px;
+  height: 140px;
 }
 
 .contact .contact-form .btn {
-    height: 50px;
-    padding: 0 50px;
+  height: 50px;
+  padding: 0 50px;
 }
 
 /***********************************RESPONSIVO*********************************************/
 
 @media (max-width: 1199px) {
-
   .section .container {
     padding-top: 70px;
   }
-     .aside {
-        left: -270px;
-    } 
-    .aside.open {
-      left: 0;
-    }
-    .aside .nav-toggler {
-      display: flex;
-      left: 30px;
-    }
-    .nav-toggler{
-      color: var(--skin-color);
-      font-size: 25px;
-    }
-    .aside .nav-toggler.open {
-      left: 300px;
-    }
-    .section {
-      left: 0;
-    }
-    .section.open {
-      left: 270px;
-    }
-    .about .about-content .personal-info .info-item p span {
-        display: block;
-        margin-left: 0;
-    }
+  .aside {
+    left: -270px;
+  }
+  .aside.open {
+    left: 0;
+  }
+  .aside .nav-toggler {
+    display: flex;
+    left: 30px;
+  }
+  .nav-toggler {
+    color: var(--skin-color);
+    font-size: 25px;
+  }
+  .aside .nav-toggler.open {
+    left: 300px;
+  }
+  .section {
+    left: 0;
+  }
+  .section.open {
+    left: 270px;
+  }
+  .about .about-content .personal-info .info-item p span {
+    display: block;
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 991px) {
-    .contact .contact-info-item,
-    .portfolio .portfolio-item,
-    .service .service-item {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    .home .home-info {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    .home .home-img {
-        display: none;
-    }
+  .contact .contact-info-item,
+  .portfolio .portfolio-item,
+  .service .service-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .home .home-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .home .home-img {
+    display: none;
+  }
 }
 
 @media (max-width: 767px) {
-    .contact .contact-form .col-6,
-    .contact .contact-info-item,
-    .portfolio .portfolio-item,
-    .service .service-item,
-    .about .about-content .experience,
-    .about .about-content .skills,
-    .about .about-content .personal-info {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
+  .contact .contact-form .col-6,
+  .contact .contact-info-item,
+  .portfolio .portfolio-item,
+  .service .service-item,
+  .about .about-content .experience,
+  .about .about-content .skills,
+  .about .about-content .personal-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
-
-
-
-
