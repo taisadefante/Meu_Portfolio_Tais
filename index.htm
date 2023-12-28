@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Tais Defante</title>
+  </head>
+  <body onresize="mudouTamanho()">
+    <!-------------------------MENU--------------------------------------------->
+    <header id="header-id">
+      <div class="interface">
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+
+        <menu class="menu-desktop" id="itens">
+          <ul>
+            <li><a class="link-header" href="#home">Home</a></li>
+            <li><a class="link-header" href="#sobre">Sobre</a></li>
+            <li><a class="link-header" href="#formacao">Formação</a></li>
+            <li><a class="link-header" href="#projetos-id">Projetos</a></li>
+          </ul>
+        </menu>
+
+        <div class="btn-contato">
+          <button><a class="a-contato" href="#contato">Contato</a></button>
+        </div>
+      </div>
+    </header>
+
+    <!--------------------------------HOME------------------------------------------>
+
+    <section class="home" id="home">
+      <img src="./img/tais.jpg" class="img-logo" alt="Foto Tais" />
+
+      <div>
+        <h1 class="hello">
+          <strong>Olá, meu nome é:</strong>
+          <span class="name">Taís Defante!</span>
+        </h1>
+        <h1 class="my-profession">
+          Sou <span class="typing">Desenvolvedora de Sistema</span>
+        </h1>
+        <p class="p-home">
+          Sou uma pessoa comunicativa, com soft skills bem desenvolvidos e sei
+          trabalhar muito bem em equipe. Gosto muito de desafios e resolver
+          problemas por isso me identifico com a área de TI. Além disso, sou uma
+          pessoa comprometida, organizada e responsável. Acredito ter qualidades
+          imprescindíveis para o mercado de trabalho!
+        </p>
+
+        <a href="./img/Curriculo.pdf" class="button-h" target="-black"
+          ><button class="button-h">Curriculo</button></a
+        >
+      </div>
+    </section>
+
+    <!--------------------------------------SOBRE--------------------------------->
+    <section class="sobre" id="sobre">
+      <h1 class="titulo">Sobre Mim</h1>
+      <div>
+        <p class="p-sobre">
+          Sou Administradora e minha carreira foi desenvolvida na área
+          administrativa / Financeira. <br /><br />
+          Estou me formando como Desenvolvedora de Software Full Stack,
+          acumulando experiência com front-end (HTML, CSS, React), Back-end
+          (node.js / Javascript) e Banco de Dados (Mysql), Git e Github.
+          <br /><br />
+          Também estou me formando em Gerenciamento de Projetos e acumulando
+          experiência com infraestruturar de TI, Ms-Project, Trello, Power - Bi,
+          LGPD – ISSO 27001, Qualidade de Projetos, Metodologia ágil (Scrum,
+          Kanban) , Analista de risco, padrões e o guia PMBOK®. <br /><br />
+          Sou uma profissional com senso de dono, visão Analítico-investigativa,
+          entendimento das necessidades das páreas de negócios, tenho capacidade
+          de absorver conteúdo e resolver problemas que são apresentados
+          propondo soluções viáveis e realização de planejamento dos projetos.
+          <br /><br />
+          Amo desafios e adquirir novos conhecimentos. Tenho como objetivo
+          conquistar conhecimentos técnicos, aprimorar os que já tenho e buscar
+          dentro de minha cultura organizacional uma oportunidade. Buscando
+          sempre a melhoria dos processos e o desenvolvimento de habilidades,
+          contribuindo para que meus conhecimentos possa trazer benefícios e
+          crescimento para o Negocio.
+        </p>
+      </div>
+    </section>
+    <!--------------------------------------FORMAÇÃO--------------------------------->
+
+    <!--------------------------------------PROJETOS--------------------------------->
+
+    <section class="projetos" id="projetos-id">
+      <h1 class="titulo">Projetos</h1>
+
+      <div class="wrapper">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel">
+          <!---------------------------------------------------->
+
+          <li class="card">
+            <div class="img">
+              <img
+                src="./img/projetos-front/empresa_tecnologia.png"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+
+            <h2 class="titulo-proj">Empresa Tecnologia</h2>
+            <p>HTML / CSS</p>
+
+            <div class="div-bt-projeto">
+              <a
+                href="https://taisadefante.github.io/web_empresa_ti/"
+                target="_blank"
+                ><button class="bt-projeto">Deploy</button></a
+              >
+              <a
+                href="https://github.com/taisadefante/web_empresa_ti"
+                target="_blank"
+                ><button class="bt-projeto">GitHub</button></a
+              >
+            </div>
+          </li>
+
+          <!----------------------------------------------------->
+          <li class="card">
+            <div class="img">
+              <img
+                src="./img/projetos-front/m&a turismo.png"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <h2 class="titulo-proj">web M&A Turismo</h2>
+            <p>HTML / CSS</p>
+
+            <div class="div-bt-projeto">
+              <a
+                href="https://taisadefante.github.io/web_m-a_turismo/"
+                target="_blank"
+                ><button class="bt-projeto">Deploy</button></a
+              >
+              <a
+                href="https://github.com/taisadefante/web_m-a_turismo"
+                target="_blank"
+                ><button class="bt-projeto">GitHub</button></a
+              >
+            </div>
+          </li>
+
+          <!----------------------------------------------------->
+          <li class="card">
+            <div class="img">
+              <img
+                src="./img/projetos-front/cartao_contato.jpeg"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <h2 class="titulo-proj">Cartão de Contato</h2>
+            <p>HTML / CSS</p>
+
+            <div class="div-bt-projeto">
+              <a
+                href="https://taisadefante.github.io/Cartao_Contato_Tais/"
+                target="_blank"
+                ><button class="bt-projeto">Deploy</button></a
+              >
+              <a
+                href="https://github.com/taisadefante/Cartao_Contato_Tais"
+                target="_blank"
+                ><button class="bt-projeto">GitHub</button></a
+              >
+            </div>
+          </li>
+
+          <!----------------------------------------------------->
+          <li class="card">
+            <div class="img">
+              <img
+                src="./img/projetos-front/livro_receita.png"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <h2 class="titulo-proj">Livro de Receita</h2>
+            <p>HTML / CSS</p>
+
+            <div class="div-bt-projeto">
+              <a
+                href="https://taisadefante.github.io/Minhas-Receitas-Web/"
+                target="_blank"
+                ><button class="bt-projeto">Deploy</button></a
+              >
+              <a
+                href="https://github.com/taisadefante/Minhas-Receitas-Web"
+                target="_blank"
+                ><button class="bt-projeto">GitHub</button></a
+              >
+            </div>
+          </li>
+          <!----------------------------------------------------->
+
+          <li class="card">
+            <div class="img">
+              <img
+                src="./img/projetos-front/my dolars.jpeg"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <h2 class="titulo-proj">My Dolars</h2>
+            <p>HTML / CSS</p>
+
+            <div class="div-bt-projeto">
+              <a
+                href="https://taisadefante.github.io/Conversor-dolar-real/"
+                target="_blank"
+                ><button class="bt-projeto">Deploy</button></a
+              >
+              <a
+                href="https://github.com/taisadefante/Conversor-dolar-real"
+                target="_blank"
+                ><button class="bt-projeto">GitHub</button></a
+              >
+            </div>
+          </li>
+          <!----------------------------------------------------->
+          <li class="card">
+            <div class="img">
+              <img
+                src="./img/projetos-front/pagina_churrascometro.png"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <h2 class="titulo-proj">Churrascometro</h2>
+            <>HTML / CSS</ JSp>
+
+            <div class="div-bt-projeto">
+              <a
+                href="https://taisadefante.github.io/Calculadora_Churrasco/"
+                target="_blank"
+                ><button class="bt-projeto">Deploy</button></a
+              >
+              <a
+                href="https://github.com/taisadefante/Calculadora_Churrasco"
+                target="_blank"
+                ><button class="bt-projeto">GitHub</button></a
+              >
+            </div>
+          </li>
+
+          <!----------------------------------------------------->
+          <li class="card">
+            <div class="img">
+              <img
+                src="./img/projetos-front/site lista mercado.jpeg"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <h2 class="titulo-proj">Lista de Mercado</h2>
+            <p>HTML / CSS / JS</p>
+
+            <div class="div-bt-projeto">
+              <a
+                href="https://taisadefante.github.io/Lista_mercado---Curso_dankicode/"
+                target="_blank"
+                ><button class="bt-projeto">Deploy</button></a
+              >
+              <a
+                href="https://github.com/taisadefante/Lista_mercado---Curso_dankicode"
+                ><button class="bt-projeto">GitHub</button></a
+              >
+            </div>
+          </li>
+          <!----------------------------------------------------->
+
+          <li class="card">
+            <div class="img">
+              <img
+                src="./img/projetos-front/web barbearia_alura.png"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <h2 class="titulo-proj">Barbearia Alura</h2>
+            <p>HTML / CSS</p>
+
+            <div class="div-bt-projeto">
+              <a
+                href="https://taisadefante.github.io/Barbearia_Alura/"
+                target="_blank"
+                ><button class="bt-projeto">Deploy</button></a
+              >
+              <a
+                href="https://github.com/taisadefante/Barbearia_Alura"
+                target="_blank"
+                ><button class="bt-projeto">GitHub</button></a
+              >
+            </div>
+          </li>
+          <!----------------------------------------------------->
+          <li class="card">
+            <div class="img">
+              <img
+                src="./img/projetos-front/web decodificador.jpeg"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <h2 class="titulo-proj">Decodificador de Texto</h2>
+            <p>HTML / CSS</p>
+
+            <div class="div-bt-projeto">
+              <a
+                href="https://taisadefante.github.io/Decodificador_de_texto_one_js/"
+                target="_blank"
+                ><button class="bt-projeto">Deploy</button></a
+              >
+              <a
+                href="https://github.com/taisadefante/Decodificador_de_texto_one_js"
+                target="_blank"
+                ><button class="bt-projeto">GitHub</button></a
+              >
+            </div>
+          </li>
+          <!----------------------------------------------------->
+          <li class="card">
+            <div class="img">
+              <img
+                src="./img/projetos-front/Web Ficha_de_Cadastro.png"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <h2 class="titulo-proj">Ficha de Cadastro</h2>
+            <p>HTML / CSS / JS</p>
+
+            <div class="div-bt-projeto">
+              <a
+                href=" https://taisadefante.github.io/Ficha_de_Cadastro/"
+                target="_blank"
+                ><button class="bt-projeto">Deploy</button></a
+              >
+              <a
+                href="https://github.com/taisadefante/Ficha_de_Cadastro"
+                target="_blank"
+                ><button class="bt-projeto">GitHub</button></a
+              >
+            </div>
+          </li>
+          <!----------------------------------------------------->
+          <li class="card">
+            <div class="img">
+              <img
+                src="./img/projetos-front/web Lista tarefa.png"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <h2 class="titulo-proj">Lista de Tarefas</h2>
+            <p>HTML / CSS</p>
+
+            <div class="div-bt-projeto">
+              <a><button class="bt-projeto">Deploy</button></a>
+              <a
+                href="https://github.com/taisadefante/Lista_Tarefas_Node_DankiCode"
+                target="_blank"
+                ><button class="bt-projeto">GitHub</button></a
+              >
+            </div>
+          </li>
+          <!----------------------------------------------------->
+
+          <li class="card">
+            <div class="img">
+              <img
+                src="./img/power-bi/projeto_power_bi1.png"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <h2 class="titulo-proj">Dashboard power bi</h2>
+            <div class="div-bt-projeto">
+              <a><button class="bt-projeto">Deploy</button></a>
+              <a><button class="bt-projeto">GitHub</button></a>
+            </div>
+          </li>
+          <!----------------------------------------------------->
+
+          <li class="card">
+            <div class="img">
+              <img
+                src="./img/power-bi/projeto_power_bi2.png"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <h2 class="titulo-proj">Dashboard power bi</h2>
+            <div class="div-bt-projeto">
+              <a><button class="bt-projeto">Deploy</button></a>
+              <a><button class="bt-projeto">GitHub</button></a>
+            </div>
+          </li>
+          <!----------------------------------------------------->
+        </ul>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+    </section>
+    <!--------------------------------------CONTATO------------------------------>
+    <section id="contact">
+      <h1 class="titulo">Entre em Contato</h1>
+      <div class="social">
+        <a href="https://github.com/taisadefante" target="_blank">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            style="fill: rgba(0, 0, 0, 1)"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"
+            ></path>
+          </svg>
+        </a>
+
+        <a href="https://www.linkedin.com/in/tais-defante/" target="_blank">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            style="fill: rgba(0, 0, 0, 1)"
+          >
+            <path
+              d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z"
+            ></path>
+          </svg>
+        </a>
+
+        <a href="https://wa.me/+5521988359825" target="_blank">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            style="fill: rgba(0, 0, 0, 1)"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M18.403 5.633A8.919 8.919 0 0 0 12.053 3c-4.948 0-8.976 4.027-8.978 8.977 0 1.582.413 3.126 1.198 4.488L3 21.116l4.759-1.249a8.981 8.981 0 0 0 4.29 1.093h.004c4.947 0 8.975-4.027 8.977-8.977a8.926 8.926 0 0 0-2.627-6.35m-6.35 13.812h-.003a7.446 7.446 0 0 1-3.798-1.041l-.272-.162-2.824.741.753-2.753-.177-.282a7.448 7.448 0 0 1-1.141-3.971c.002-4.114 3.349-7.461 7.465-7.461a7.413 7.413 0 0 1 5.275 2.188 7.42 7.42 0 0 1 2.183 5.279c-.002 4.114-3.349 7.462-7.461 7.462m4.093-5.589c-.225-.113-1.327-.655-1.533-.73-.205-.075-.354-.112-.504.112s-.58.729-.711.879-.262.168-.486.056-.947-.349-1.804-1.113c-.667-.595-1.117-1.329-1.248-1.554s-.014-.346.099-.458c.101-.1.224-.262.336-.393.112-.131.149-.224.224-.374s.038-.281-.019-.393c-.056-.113-.505-1.217-.692-1.666-.181-.435-.366-.377-.504-.383a9.65 9.65 0 0 0-.429-.008.826.826 0 0 0-.599.28c-.206.225-.785.767-.785 1.871s.804 2.171.916 2.321c.112.15 1.582 2.415 3.832 3.387.536.231.954.369 1.279.473.537.171 1.026.146 1.413.089.431-.064 1.327-.542 1.514-1.066.187-.524.187-.973.131-1.067-.056-.094-.207-.151-.43-.263"
+            ></path>
+          </svg>
+        </a>
+      </div>
+
+      
+      <form action="https://formsubmit.co/taisadefante@hotmail.com" method="post">
+        <input type="text" placeholder="Digite seu nome" />
+        <input type="text" placeholder="Digite seu Telefone" />
+        <input type="email" placeholder="Digite seu e-mail" />
+
+       
+
+        <textarea
+          cols="30"
+          rows="10"
+          placeholder="Digite sua mensagem"
+        ></textarea>
+        <button>
+          <a href="./sucesso.html" value="Enviar" class="button">Enviar</a>
+        </button>
+      </form>
+    </section>
+
+    <!--------------------------------------FOOTER--------------------------------->
+    <footer>
+      <span>Copyright © 2023 Tais Defante . Todos os direitos reservados.</span>
+      >
+      <br />
+      <span>Contato: taisadefante@hotmail.com</span>
+    </footer>
+
+    <!-------------------------------------------------------------->
+
+    <a id="backToTopButton" class="" href="#header-id">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="70"
+        height="70"
+        viewBox="0 0 24 24"
+        style="fill: blue"
+      >
+        <path
+          d="M5 21h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2zm7-14 5 5h-4v5h-2v-5H7l5-5z"
+        ></path>
+      </svg>
+    </a>
+  </body>
+  <script src="./script.js" defer></script>
+  <script>
+    function clickMenu() {
+      if (itens.style.display == "block") {
+        itens.style.display = "none";
+      } else {
+        itens.style.display = "block";
+      }
+    }
+  </script>
+</html>
