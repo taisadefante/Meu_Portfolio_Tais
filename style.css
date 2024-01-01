@@ -178,6 +178,18 @@ h1.titulo {
 }
 
 /***************************FORMAÇÃO**********************************/
+.logo {
+  display: inline-block;
+  color: blue;
+  width: 100px;
+  padding: 15px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.devicon {
+  font-size: 50px;
+}
 
 /***************************PROJETOS**********************************/
 
