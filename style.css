@@ -142,8 +142,8 @@ h1 {
 }
 
 .button-h {
-  height: 4.7rem;
-  width: 22rem;
+  height: 3.7rem;
+  width: 15rem;
   margin: 3rem auto;
   background: blue;
   border: none;
@@ -191,6 +191,11 @@ h1.titulo {
   font-size: 50px;
 }
 
+.devicon:hover {
+  filter: brightness(0.7);
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.336);
+}
 /***************************PROJETOS**********************************/
 
 .wrapper {
@@ -291,7 +296,7 @@ h1.titulo {
   color: blue;
 }
 
-.bt-project {
+.bt-projeto {
   color: black;
   background: blue;
   padding: 10px 25px 10px 25px;
@@ -301,12 +306,13 @@ h1.titulo {
   margin: 20px 10px 0 0;
 }
 
-.bt-project:hover {
+.bt-projeto:hover {
   filter: brightness(0.7);
   cursor: pointer;
   color: white;
   transform: scale(1.1);
 }
+
 /***************************CONTATO**********************************/
 
 #contact {
