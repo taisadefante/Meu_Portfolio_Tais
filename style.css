@@ -297,7 +297,7 @@ h1.title {
   color: blue;
 }
 
-.bt-projeto {
+.bt-project {
   color: black;
   background: blue;
   padding: 10px 25px 10px 25px;
@@ -307,7 +307,7 @@ h1.title {
   margin: 20px 10px 0 0;
 }
 
-.bt-projeto:hover {
+.bt-project:hover {
   filter: brightness(0.7);
   cursor: pointer;
   color: white;
