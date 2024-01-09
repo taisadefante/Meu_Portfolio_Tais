@@ -25,7 +25,7 @@ body {
 /***************************MENU**********************************/
 
 header {
-  padding: 30px;
+  padding: 10px;
 }
 
 header > .interface {
@@ -110,7 +110,7 @@ menu > ul > li > a {
   padding: 10px;
   margin-left: 30px;
   margin-right: 30px;
-  margin-top: 1px;
+  margin-bottom: 50px;
 }
 
 div {
@@ -150,7 +150,7 @@ h1 {
 .button-h {
   height: 3.7rem;
   width: 15rem;
-  margin: 3rem auto;
+  
   background: #9102d4;
   border: none;
   border-radius: 30px;
