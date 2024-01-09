@@ -188,17 +188,15 @@ h1.title {
   display: flex;
   flex-wrap: wrap;
   color: #9102d4;
-  width: 100px;
-  padding: 10px;
-  margin: auto;
-  margin-top: 40px;
-  margin-left: 10px;
+  width: 80px;
+  padding: 5px;
+   margin-top: 50px;
 
   
 }
 
 .devicon {
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .devicon:hover {
