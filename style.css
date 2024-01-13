@@ -122,7 +122,6 @@ div {
   font-size: 45px;
   line-height: 122px;
   color: rgba(255, 255, 255, 0.336);
- 
 }
 
 .name {
@@ -150,7 +149,7 @@ h1 {
 .button-h {
   height: 3.7rem;
   width: 15rem;
-  
+
   background: #9102d4;
   border: none;
   border-radius: 30px;
@@ -191,9 +190,7 @@ h1.title {
   color: #9102d4;
   width: 80px;
   padding: 5px;
-   margin-top: 50px;
-
-  
+  margin-top: 50px;
 }
 
 .devicon {
@@ -428,7 +425,7 @@ h1.title {
 }
 /***************************FOOTER**********************************/
 footer {
-  box-shadow: 0px -1px 0px 0px #000000;
+  box-shadow: 0px -1px 0px 0px #9102d4;
   padding: 12px;
   text-align: center;
   color: #9102d4;
@@ -574,7 +571,7 @@ footer {
     height: 9rem;
     width: 19rem;
     background: rgba(15, 12, 12, 0.96);
-    border: 1px solid v
+    border: 1px solid #9102d4;
     border-radius: 1px;
     font-size: 1px;
     letter-spacing: 0.1rem;
