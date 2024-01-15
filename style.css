@@ -535,7 +535,8 @@ footer {
     line-height: 40px;
   }
 
-  .p-home {
+  .p-home,
+  .p-about {
     font-weight: 50%;
     font-size: 15px;
     text-align: justify;
