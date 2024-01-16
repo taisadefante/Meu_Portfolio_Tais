@@ -511,6 +511,17 @@ footer {
     max-width: 100%;
   }
 
+  .bt-project {
+    color: black;
+    background: #9102d4;
+    padding: 7px 20px 7px 20px;
+    font-size: 10px;
+    display: inline;
+    border-radius: 30px;
+    margin: 15px 9px 0 0;
+    align-items: center;
+  }
+
   .button-h {
     height: 2.7rem;
     width: 13rem;
