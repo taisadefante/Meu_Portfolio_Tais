@@ -457,47 +457,15 @@ footer {
 
 /***********************************************************/
 
-@media screen and (max-width: 900px) {
-  .wrapper .carousel {
-    grid-auto-columns: calc((100% / 2) - 9px);
-  }
-
-  #contact a svg {
-    margin: 4rem 1.1rem 3rem;
-    width: 2.2rem;
-    height: 2.2rem;
-  }
-
-  #contact form input {
-    width: 25rem;
-    height: 4rem;
-    border: 1px solid #9102d4;
-    font-size: 1.6rem;
-    letter-spacing: 0.2rem;
-  }
-
-  #contact form textarea {
-    height: 12rem;
-    width: 25rem;
-    background: rgba(15, 12, 12, 0.96);
-    border: 1px solid #9102d4;
-    border-radius: 1rem;
-    font-size: 1.1rem;
-    letter-spacing: 0.1rem;
-  }
-
-  #contact form button {
-    height: 3.7rem;
-    width: 15rem;
-    margin: 3rem auto;
-    background: #9102d4;
-    border: none;
-    border-radius: 30px;
-    font-size: 2rem;
-  }
-}
-
 @media screen and (max-width: 600px) {
+  .btn-contato {
+    display: none;
+  }
+
+  .menu-desktop {
+    align-items: end;
+  }
+
   menu > ul > li > a {
     display: block;
     padding: 5px;
@@ -519,7 +487,7 @@ footer {
   }
 
   .hello {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 100px;
     color: rgba(255, 255, 255, 0.336);
   }
@@ -531,7 +499,7 @@ footer {
 
   h1 {
     font-weight: 300px;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 40px;
   }
 
@@ -604,5 +572,11 @@ footer {
   }
   menu > ul > li {
     display: inline-block;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 440px) {
+  .btn-contato {
+    display: none;
   }
 }
