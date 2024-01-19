@@ -322,7 +322,6 @@ h1.title {
 /***************************CONTATO**********************************/
 
 #contact {
-  min-height: 100vh;
   text-align: center;
 }
 
@@ -350,79 +349,6 @@ h1.title {
   fill: #9102d4;
 }
 
-#contact form {
-  display: flex;
-  flex-direction: column;
-  width: fit-content;
-  gap: 1.1rem;
-  margin: auto;
-}
-
-#contact form input {
-  width: 40rem;
-  height: 4rem;
-  padding: 1.5rem;
-  background: rgba(15, 12, 12, 0.96);
-  border: 1px solid #9102d4;
-  border-radius: 1rem;
-  font-size: 1.8rem;
-  font-family: "Dm-sans", sans-serif;
-  letter-spacing: 0.2rem;
-  color: white;
-}
-
-#contact form textarea {
-  height: 13rem;
-  padding: 1.5rem;
-  background: rgba(15, 12, 12, 0.96);
-  border: 1px solid#9102d4;
-  border-radius: 1rem;
-  font-size: 1.7rem;
-  letter-spacing: 0.2rem;
-  color: white;
-}
-
-#contact form label {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0);
-  white-space: nowrap;
-  border-width: 0;
-}
-
-#contact form button {
-  height: 4.7rem;
-  width: 18rem;
-  margin: 2rem auto;
-  background: #9102d4;
-  border: none;
-  border-radius: 30px;
-  font-size: 2rem;
-  font-weight: 600;
-  transition: all 0.6s;
-}
-
-#contact form button a {
-  color: #000000;
-}
-
-#contact form button:hover {
-  filter: brightness(0.7);
-  cursor: pointer;
-  color: white;
-  transform: scale(1.1);
-}
-
-#contact form button a:hover {
-  filter: brightness(0.7);
-  cursor: pointer;
-  color: white;
-  transform: scale(1.1);
-}
 /***************************FOOTER**********************************/
 footer {
   box-shadow: 0px -1px 0px 0px #9102d4;
