@@ -28,6 +28,7 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   padding: 20px 40px;
   font-size: 20px;
   align-items: center;
@@ -46,19 +47,18 @@ body {
 }
 
 .nav-menu {
-  padding: 0;
-}
-
-.nav-menu {
   list-style: none;
   display: flex;
   gap: 15px;
+  padding: 0;
+  justify-content: center;
 }
 
 .nav-menu a {
   font-size: 18px;
   text-decoration: none;
   color: white;
+  align-items: center;
 }
 
 .nav-menu a:hover {
@@ -356,16 +356,6 @@ footer {
   .btn-contato {
     display: none;
   }
-  .navbar {
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px 0;
-  }
-
-  .nav-menu {
-    padding: 0;
-  }
   .img-logo {
     width: 250px;
     margin: 0 20%;
@@ -456,31 +446,5 @@ footer {
     border: none;
     border-radius: 30px;
     font-size: 1rem;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px 0;
-  }
-
-  .nav-menu {
-    padding: 0;
-  }
-}
-
-@media (max-width: 700px) {
-  .navbar {
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px 0;
-  }
-
-  .nav-menu {
-    padding: 0;
   }
 }
