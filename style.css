@@ -24,89 +24,47 @@ body {
 
 /***************************MENU**********************************/
 
-header {
-  padding: 10px;
-}
-
-header > .interface {
+/* Navbar */
+.navbar {
   display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  font-size: 20px;
   align-items: center;
-  justify-content: flex-end;
-  border-radius: 20px;
-  padding: 1px;
 }
 
-i#burguer {
-  display: block;
-  text-align: center;
-  padding: 10px;
-  color: white;
-  cursor: pointer;
+.navbar span {
+  color: rgb(56, 55, 55);
+  font-weight: 900;
 }
 
-i#burguer:hover {
-  background-color: blue;
-  color: black;
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
 }
 
-menu {
-  display: none;
-}
-
-menu > ul {
-  list-style-type: none;
-}
-
-menu > ul > li > a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  text-align: center;
-  color: white;
-}
-
-.link-header {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  color: white;
-  cursor: pointer;
-  margin-right: 30px;
-}
-
-.link-header:hover {
-  color: blue;
-}
-
-.btn-contato button {
-  padding: 10px 40px;
+.nav-menu a {
   font-size: 18px;
-  font-weight: 700;
-  background-color: blue;
-  border-radius: 30px;
-  cursor: pointer;
-  border: none;
-}
-
-.btn-contato button:hover {
-  color: white;
-  transform: scale(1.1);
-}
-
-.a-contato {
-  color: black;
-}
-
-.a-contato:hover {
+  text-decoration: none;
   color: white;
 }
+
+.nav-menu a:hover {
+  color: #4747b1;
+  border-bottom: 2px solid #4747b1;
+  transition: 0.2s;
+}
+
+/* Breakpoint */
+
 /***************************HOME**********************************/
 
 .img-logo {
   width: 30%;
   display: inline-block;
   border-radius: 50px;
-  border: 5px solid blue;
+  border: 5px solid rgb(56, 55, 55);
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 50px;
@@ -124,7 +82,7 @@ div {
 }
 
 .name {
-  color: blue;
+  color: rgb(56, 55, 55);
   font-size: 55px;
 }
 
@@ -149,7 +107,7 @@ h1 {
   height: 3.7rem;
   width: 15rem;
 
-  background: blue;
+  background: rgb(56, 55, 55);
   border: none;
   border-radius: 30px;
   font-size: 2rem;
@@ -168,7 +126,7 @@ h1 {
 /***************************SOBRE**********************************/
 
 h1.title {
-  color: blue;
+  color: rgb(56, 55, 55);
   text-align: center;
   margin-top: 100px;
   box-shadow: 0 0 40px 40px rgb(56, 56, 56);
@@ -186,7 +144,7 @@ h1.title {
 .soon {
   display: flex;
   flex-wrap: wrap;
-  color: blue;
+  color: rgb(56, 55, 55);
   width: 80px;
   padding: 5px;
   margin-top: 50px;
@@ -220,7 +178,7 @@ h1.title {
   position: absolute;
   text-align: center;
   line-height: 50px;
-  background: blue;
+  background: rgb(56, 55, 55);
   color: black;
   border-radius: 50%;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -272,12 +230,12 @@ h1.title {
   height: 400px;
   list-style: none;
   background: black;
-  border: 3px solid blue;
+  border: 3px solid rgb(56, 55, 55);
   flex-direction: column;
   border-radius: 8px;
 }
 .carousel .card .img {
-  background: blue;
+  background: rgb(56, 55, 55);
   width: 100%;
   height: 50%;
   align-items: center;
@@ -291,19 +249,19 @@ h1.title {
   margin: auto;
   border-radius: 5%;
   object-fit: cover;
-  border: 4px solid blue;
+  border: 4px solid rgb(56, 55, 55);
 }
 
 .title-proj {
   font-weight: 500;
   font-size: 15px;
   margin: 30px 0 15px;
-  color: blue;
+  color: rgb(56, 55, 55);
 }
 
 .bt-project {
   color: black;
-  background: blue;
+  background: rgb(56, 55, 55);
   padding: 10px 25px 10px 25px;
   font-size: 15px;
   display: inline;
@@ -342,19 +300,19 @@ h1.title {
 }
 
 #contact a svg path {
-  fill: blue;
+  fill: rgb(56, 55, 55);
 }
 
 #contact a:hover svg path {
-  fill: blue;
+  fill: rgb(56, 55, 55);
 }
 
 /***************************FOOTER**********************************/
 footer {
-  box-shadow: 0px -1px 0px 0px blue;
+  box-shadow: 0px -1px 0px 0pxrgb (56, 55, 55);
   padding: 12px;
   text-align: center;
-  color: blue;
+  color: rgb(56, 55, 55);
   font-size: 10px;
   margin-top: 5%;
 }
@@ -419,7 +377,7 @@ footer {
   }
 
   .name {
-    color: blue;
+    color: rgb(56, 55, 55);
     font-size: 20px;
   }
 
@@ -439,7 +397,7 @@ footer {
 
   .bt-project {
     color: black;
-    background: blue;
+    background: rgb(56, 55, 55);
     padding: 7px 20px 7px 20px;
     font-size: 10px;
     display: inline;
@@ -468,7 +426,7 @@ footer {
   #contact form input {
     width: 19rem;
     height: 2rem;
-    border: 1px solid blue;
+    border: 1px solid rgb(56, 55, 55);
     font-size: 1.2rem;
     letter-spacing: 0.2rem;
   }
@@ -477,7 +435,7 @@ footer {
     height: 9rem;
     width: 19rem;
     background: rgba(15, 12, 12, 0.96);
-    border: 1px solid blue;
+    border: 1px solid rgb(56, 55, 55);
     border-radius: 1px;
     font-size: 1px;
     letter-spacing: 0.1rem;
@@ -487,7 +445,7 @@ footer {
     height: 2.7rem;
     width: 10rem;
     margin: 3rem auto;
-    background: blue;
+    background: rgb(56, 55, 55);
     border: none;
     border-radius: 30px;
     font-size: 1rem;
@@ -515,5 +473,18 @@ footer {
 @media screen and (min-width: 0px) and (max-width: 440px) {
   .btn-contato {
     display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+  }
+
+  .nav-menu {
+    padding: 0;
   }
 }
