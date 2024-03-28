@@ -55,10 +55,11 @@ body {
 }
 
 .nav-menu a {
-  font-size: 18px;
+  font-size: 15px;
   text-decoration: none;
   color: white;
   align-items: center;
+  justify-content: center;
 }
 
 .nav-menu a:hover {
