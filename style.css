@@ -38,6 +38,17 @@ body {
   font-weight: 900;
 }
 
+.navbar {
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.nav-menu {
+  padding: 0;
+}
+
 .nav-menu {
   list-style: none;
   display: flex;
@@ -345,20 +356,16 @@ footer {
   .btn-contato {
     display: none;
   }
-
-  .menu-desktop {
-    align-items: end;
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
   }
 
-  menu > ul > li > a {
-    display: block;
-    padding: 5px;
-    text-decoration: none;
-    text-align: center;
-    color: rgb(56, 56, 56);
-    max-width: 60px;
+  .nav-menu {
+    padding: 0;
   }
-
   .img-logo {
     width: 250px;
     margin: 0 20%;
@@ -453,26 +460,15 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-  i#burguer {
-    display: none;
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
   }
 
-  menu {
-    display: block;
-  }
-
-  menu > ul {
-    display: inline-block;
-    align-items: center;
-  }
-  menu > ul > li {
-    display: inline-block;
-  }
-}
-
-@media screen and (min-width: 0px) and (max-width: 440px) {
-  .btn-contato {
-    display: none;
+  .nav-menu {
+    padding: 0;
   }
 }
 
